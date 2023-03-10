@@ -1,0 +1,6 @@
+# folders
+**/venv
+**/docs
+
+# files types
+**.md
