@@ -1,6 +1,7 @@
 # folders
 **/venv
 **/docs
+**/__pycache__
 
 # files types
 **.md
