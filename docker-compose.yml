@@ -1,7 +1,6 @@
 version: '3'
 
 services:
-
     python:
         build:
             dockerfile: ./Dockerfile
@@ -10,9 +9,12 @@ services:
         env_file:
             - .env
     db:
-        image: postgres
+        image: postgres:alpine
         environment:
             POSTGRES_USER: postgres
             POSTGRES_PASSWORD: postgres
         ports:
-            - 5432:5432
+            - 5432:5432     
+        command: 
+            psql -U postgres && 
+            CREATE DATABASE infosProducao

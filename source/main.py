@@ -11,6 +11,7 @@ def main():
     args = parser.parse_args()
     anos = args.year
     file = args.file
+    period = []
 
     if len(str(anos))==4: period = [str(anos)]*2
     elif len(anos)==9: period = anos.split('-')
