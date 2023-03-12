@@ -1,5 +1,7 @@
-FROM python:3.10-slim
+FROM python:3.11-slim
 
+ARG YEAR
+ARG FILE
 ENV YEAR = ${YEAR}
 ENV FILE = ${FILE}
 
@@ -14,7 +16,4 @@ COPY source/ .
 
 RUN rm requirements.txt
 
-RUN ls
-
-ENTRYPOINT [ "python3" ]
-CMD [ "main.py", "-y", "$YEAR", "-f", "$FILE" ]
+CMD python3 main.py -y $YEAR -f $FILE

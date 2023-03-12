@@ -3,6 +3,9 @@ from reader import htmlInfos
 from transcriber import insertData
 from analyzer import parsePublication
 import argparse
+import logging
+
+logging.basicConfig(level=logging.DEBUG)
 
 def main():
     parser = argparse.ArgumentParser(description='PONDOC')
@@ -11,6 +14,10 @@ def main():
     args = parser.parse_args()
     anos = args.year
     file = args.file
+
+    logging.info(f"Anos: {anos}")
+    logging.info(f"File Output: {file}")
+
     period = []
 
     if len(str(anos))==4: period = [str(anos)]*2

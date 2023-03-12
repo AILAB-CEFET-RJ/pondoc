@@ -4,6 +4,9 @@ services:
     python:
         build:
             dockerfile: ./Dockerfile
+            args:
+                YEAR: ${YEAR}
+                FILE: ${FILE}
         depends_on:
             - "db"
         env_file:
