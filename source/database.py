@@ -2,8 +2,8 @@ import psycopg2
 
 # Função para criar conexão no banco
 def conect_db():
-    db = psycopg2.connect(host='localhost',
-                        dbname='infosProducao',
+    db = psycopg2.connect(host='postgres',
+                        dbname='postgres',
                         user='postgres', 
                         password='postgres',
                         port='5432')

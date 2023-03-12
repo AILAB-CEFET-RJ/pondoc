@@ -4,6 +4,7 @@ from transcriber import insertData
 from analyzer import parsePublication
 import argparse
 import logging
+import database
 
 logging.basicConfig(level=logging.DEBUG)
 
@@ -17,6 +18,7 @@ def main():
 
     logging.info(f"Anos: {anos}")
     logging.info(f"File Output: {file}")
+    database.conect_db()
 
     period = []
 
