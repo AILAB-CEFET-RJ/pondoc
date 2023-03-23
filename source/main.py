@@ -1,11 +1,11 @@
 from normalizer import normalizer
 from reader import htmlInfos
+from scriptsdb import create_tables
 from transcriber import insertData
 from analyzer import parsePublication
 import argparse
 import logging
 import database
-
 logging.basicConfig(level=logging.DEBUG)
 
 def main():

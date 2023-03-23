@@ -1,3 +1,4 @@
+import logging
 import psycopg2
 
 # Função para criar conexão no banco
@@ -7,6 +8,7 @@ def conect_db():
                         user='postgres', 
                         password='postgres',
                         port='5432')
+    logging.info('Db connection successfull')
     return db
 
   # Função para criar ou dropar uma tabela no banco
