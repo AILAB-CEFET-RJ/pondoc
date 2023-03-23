@@ -16,7 +16,6 @@
 
 <br>
 
-
 > ## Introdução
 <p>
     Projeto para estágio de conclusão do curso de Informática na instituição Centro Federal de Educação Tecnológica celso Suckow da Fonseca 
@@ -60,25 +59,18 @@
 > ## Pré-requisitos
 
 1. [Python](https://www.python.org/downloads/)
-  
-3. bs4
 
-        pip install bs4
-5. Fuzzywuzzy
+2. Criando um virtual environment
 
-        pip install fuzzywuzzy
-6. Openpyxl
+        python3 -m venv venv
 
-        pip install openpyxl
-8. Psycopg2
+3. Ativando o virtual environment
 
-        pip install psycopg2
-10. PyParsing
+        source venv/bin/activate
 
-        pip install pyparsing
-9. Requests
+4. Instalando dependências
 
-        pip install requests
+        pip install requirements.txt
         
 <p align="right"><a href="#PONDOC">Topo ↑</a></p>
 
