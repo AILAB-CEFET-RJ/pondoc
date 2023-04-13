@@ -4,13 +4,12 @@ services:
     python:
         build:
             dockerfile: ./Dockerfile
-            args:
-                YEAR: ${YEAR}
-                FILE: ${FILE}
         depends_on:
             - "postgres"
         env_file:
             - .env  
+        ports:
+            - 5000:5000
     postgres:
         image: postgres:alpine
         volumes:
