@@ -14,7 +14,7 @@
 </head>
 
 <body>
-    <div class="container">
+    <div class="container-sm size600">
         <div class="row">
             <div class="mb-3">
                 <form onsubmit="createReport(event)">
@@ -29,7 +29,7 @@
                         <input type="number" min="2014" max="2023" step="1" value="2023" class="form-control"
                             id="endYear" name="endYear" />
                     </div>
-                    <button type="submit" class="btn btn-primary" id="reportBtn" >Gerar</button>
+                    <button type="submit" class="btn btn-primary" id="reportBtn">Gerar</button>
                 </form>
                 <div class="spinner-border hidden" id="spinner" role="status">
                     <span class="sr-only"></span>
@@ -38,8 +38,7 @@
         </div>
 </body>
 <script>
-    function toggle()
-    {
+    function toggle() {
         var btn = document.getElementById("reportBtn")
         var spinner = document.getElementById("spinner")
         btn.classList.toggle('hidden')
@@ -51,7 +50,7 @@
         e.stopPropagation();
 
         const url = 'http://127.0.0.1:5000/createReport';
-        
+
         var beginYear = document.getElementById("beginYear").value
         var endYear = document.getElementById("endYear").value
 
@@ -59,8 +58,8 @@
             alert("O ano de ínicio deve ser menor ou igual que o ano final.")
             return
         }
-        const data = {beginYear, endYear};
-    
+        const data = { beginYear, endYear };
+
 
         toggle()
 
@@ -71,7 +70,7 @@
                 'Content-Type': 'application/json'
             }
         })
-            .then(res => { toggle(); return res.json()})
+            .then(res => { toggle(); return res.json() })
             .then(response => {
                 toggle()
                 alert('Success:', JSON.stringify(response))
@@ -83,5 +82,14 @@
     .hidden {
         display: none !important;
     }
+
+    .size600 {
+        margin-top: 20px;
+        width: 400px !important;
+        border: 1px rgb(196, 196, 196) solid;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 2px #999;
+    }
 </style>
+
 </html>
