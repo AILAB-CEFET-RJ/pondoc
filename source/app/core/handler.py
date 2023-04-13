@@ -1,5 +1,5 @@
 import pandas as pd
-import database as db
+from .database import db
 from fuzzywuzzy import fuzz
 
 # retorna o qualis (A1 ~ NI) de acordo com o titulo ou com o issn pego no site

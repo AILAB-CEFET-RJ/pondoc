@@ -1,7 +1,7 @@
 import openpyxl
 from openpyxl.styles import Font
 import pandas as pd
-from handler import refInfos, researchersCorrelation
+from .handler import refInfos, researchersCorrelation
 
 def conferData(wb, discauthorsC, titlesc, conferences, yearc):
     for i in range(2, len(titlesc)+2):

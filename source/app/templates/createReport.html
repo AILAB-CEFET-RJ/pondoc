@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <title>PONDOC</title>
+</head>
+
+<body>
+    <div class="container-sm size600">
+        <div class="row">
+            <div class="mb-3">
+                <form onsubmit="createReport(event)">
+                    <h2>Gerar relatório</h2>
+                    <div class="mb-3">
+                        <label for="date" class="form-label">De:</label>
+                        <input type="number" min="2014" max="2023" step="1" value="2014" class="form-control"
+                            id="beginYear" name="beginYear" />
+                    </div>
+                    <div class="mb-3">
+                        <label for="year" class="form-label">Até</label>
+                        <input type="number" min="2014" max="2023" step="1" value="2023" class="form-control"
+                            id="endYear" name="endYear" />
+                    </div>
+                    <button type="submit" class="btn btn-primary" id="reportBtn">Gerar</button>
+                </form>
+                <div class="spinner-border hidden" id="spinner" role="status">
+                    <span class="sr-only"></span>
+                </div>
+            </div>
+        </div>
+</body>
+<script>
+    function toggle() {
+        var btn = document.getElementById("reportBtn")
+        var spinner = document.getElementById("spinner")
+        btn.classList.toggle('hidden')
+        spinner.classList.toggle('hidden')
+    }
+
+    function createReport(e) {
+        e.preventDefault();
+        e.stopPropagation();
+
+        const url = 'http://127.0.0.1:5000/createReport';
+
+        var beginYear = document.getElementById("beginYear").value
+        var endYear = document.getElementById("endYear").value
+
+        if (Number(beginYear) > Number(endYear)) {
+            alert("O ano de ínicio deve ser menor ou igual que o ano final.")
+            return
+        }
+        const data = { beginYear, endYear };
+
+
+        toggle()
+
+        fetch(url, {
+            method: 'POST',
+            body: JSON.stringify(data),
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        })
+            .then(res => { toggle(); return res.json() })
+            .then(response => {
+                toggle()
+                alert('Success:', JSON.stringify(response))
+            })
+            .catch(error => alert('Error:', error));
+    }
+</script>
+<style>
+    .hidden {
+        display: none !important;
+    }
+
+    .size600 {
+        margin-top: 20px;
+        width: 400px !important;
+        border: 1px rgb(196, 196, 196) solid;
+        border-radius: 10px;
+        box-shadow: 0 0 10px 2px #999;
+    }
+</style>
+
+</html>
