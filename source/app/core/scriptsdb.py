@@ -32,7 +32,7 @@ def create_tables():
 
     # inserindo dados na tabela
     # researchers
-    with open('PPCICresearchers.json', encoding='utf-8') as arq:
+    with open('app/core/PPCICresearchers.json', encoding='utf-8') as arq:
         researchers = json.load(arq)
 
         for researcher in researchers:
