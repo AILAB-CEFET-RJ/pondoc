@@ -9,7 +9,7 @@ def normalizer(l):
     for ref in l:
         surnameref = ref[0].strip() + ', '
         nameref = (surnameref + ' '.join(ref[1:])).upper()
-
+        db.insert_delete_db("INSERT")
         docentes = pd.DataFrame(db.consult_db(
             "SELECT referencia FROM researchers"))
         for ref in docentes[0]:
