@@ -32,7 +32,9 @@ def create_tables():
 
     # inserindo dados na tabela
     # researchers
-    with open('app/core/PPCICresearchers.json', encoding='utf-8') as arq:
+
+    basePath = 'app/core'
+    with open(f'{basePath}/PPCICresearchers.json', encoding='utf-8') as arq:
         researchers = json.load(arq)
 
         for researcher in researchers:
@@ -41,9 +43,9 @@ def create_tables():
                     f"INSERT INTO researchers (nome, referencia) VALUES ('{researcher.upper()}', '{citations.upper()}')")
 
     # students
-    with open('discentes.csv', encoding='utf-8') as arq:
+    with open(f'{basePath}/discentes.csv', encoding='utf-8') as arq:
         discentes = csv.reader(arq)
-
+        'INSERT INTO table_name (column_list) VALUES (value_list_1), (value_list_2), (value_list_n)'
         for line in discentes:
             if 'nome' not in line:
                 db.insert_delete_db(
@@ -51,11 +53,19 @@ def create_tables():
                 db.insert_delete_db(
                     f"INSERT INTO students (nome, referencia) VALUES ('{line[0].upper()}', '{line[2].upper()}')")
     # qualis
-    with open('qualis.csv', encoding='utf-8') as arq:
+    with open(f'{basePath}/qualis.csv', encoding='utf-8') as arq:
         qualis = csv.reader(arq)
-
+        LIMIT = 1000
+        rows = []
         for line in qualis:
             if 'ISSN' not in line:
                 line[1] = line[1].replace("'", '')
-                db.insert_delete_db(
-                    f"INSERT INTO qualis (issn, nome, qualis) VALUES ('{line[0]}', '{line[1]}', '{line[2]}')")
+                rows.append(f"('{line[0]}', '{line[1]}', '{line[2]}')")
+                if len(rows)  == LIMIT:
+                    values = ''
+                    for row in rows:
+                        values += row + ','
+                    values = values[:len(values)-1]
+                    db.insert_delete_db(
+                        f"INSERT INTO qualis (issn, nome, qualis) VALUES {values}")
+                    rows = []

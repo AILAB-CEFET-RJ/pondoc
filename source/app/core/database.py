@@ -29,22 +29,22 @@ class Database():
             cur.execute(sql)
             con.commit()
         except (Exception, psycopg2.DatabaseError) as error:
-            print("Error: %s" % error)
+            logging.info("Error: %s" % error)
             con.rollback()
             cur.close()
             return 1
         cur.close()
 
     def consult_db(self, sql):
-        con = self.conect_db()
-        cur = con.cursor()
+        con=self.conect_db()
+        cur=con.cursor()
         cur.execute(sql)
-        recset = cur.fetchall()
-        registros = []
+        recset=cur.fetchall()
+        registros=[]
         for rec in recset:
             registros.append(rec)
         con.close()
         return registros
 
 
-db = Database()
+db=Database()

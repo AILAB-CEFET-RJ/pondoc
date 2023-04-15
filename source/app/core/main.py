@@ -31,30 +31,30 @@ def main(beginYear: str, endYear: str):
         infosc = htmlInfos(
             str(f'https://eic.cefet-rj.br/lattes/ppcic-{ano}/PB4-0.html'))
 
-        print(f'Tratando dados de Periodicos - {ano}')
+        logging.info(f'Tratando dados de Periodicos - {ano}')
         for i in infosp:
-            result = parsePublication(i.upper())
+            result=parsePublication(i.upper())
             resultsJournals.append(result)
-            doc, dis = normalizer(result[0])
+            doc, dis=normalizer(result[0])
             rJauthorsnorm.append(doc)
             discauthorsJ.append(dis)
 
-        print(f'Tratando dados de Publicações Aceitas - {ano}')
+        logging.info(f'Tratando dados de Publicações Aceitas - {ano}')
         for i in infosa:
-            result = parsePublication(i.upper())
+            result=parsePublication(i.upper())
             resultsJournals.append(result)
-            doc, dis = normalizer(result[0])
+            doc, dis=normalizer(result[0])
             rJauthorsnorm.append(doc)
             discauthorsJ.append(dis)
 
-        print(f'Tratando dados de Conferência - {ano}')
+        logging.info(f'Tratando dados de Conferência - {ano}')
         for i in infosc:
-            result = parsePublication(i.upper())
+            result=parsePublication(i.upper())
             resultsConferences.append(result)
-            doc, dis = normalizer(result[0])
+            doc, dis=normalizer(result[0])
             rCauthorsnorm.append(doc)
             discauthorsC.append(dis)
 
-    print('Inserindo dados...')
+    logging.info('Inserindo dados...')
     insertData(period, file, rJauthorsnorm, resultsJournals,
                discauthorsJ, rCauthorsnorm, resultsConferences, discauthorsC)
