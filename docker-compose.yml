@@ -6,6 +6,8 @@ services:
             dockerfile: ./Dockerfile
         depends_on:
             - "postgres"
+        volumes: 
+            - $PWD/out:$PWD/out
         env_file:
             - .env  
         ports:
