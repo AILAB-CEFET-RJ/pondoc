@@ -49,7 +49,7 @@
         e.preventDefault();
         e.stopPropagation();
 
-        const url = 'http://127.0.0.1:5000/createReport';
+        const url = 'http://127.0.0.1:5001/createReport';
 
         var beginYear = document.getElementById("beginYear").value
         var endYear = document.getElementById("endYear").value
@@ -72,10 +72,12 @@
         })
             .then(res => { toggle(); return res.json() })
             .then(response => {
-                toggle()
                 alert('Success:', JSON.stringify(response))
             })
-            .catch(error => alert('Error:', error));
+            .catch(error => {
+                toggle()
+                alert('Error:', error)
+            })
     }
 </script>
 <style>
