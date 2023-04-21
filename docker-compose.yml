@@ -12,6 +12,9 @@ services:
             - .env  
         ports:
             - 5000:5000
+        networks: 
+            - python-network
+            - postgres-network
     postgres:
         image: postgres:alpine
         volumes:
@@ -22,6 +25,14 @@ services:
             POSTGRES_DB: pondoc
         ports:
             - 5432:5432
+        networks:
+            - postgres-network
 volumes:
   postgres:
     driver: local
+
+networks:
+  python-network:
+    driver: bridge
+  postgres-network:
+    driver: bridge
