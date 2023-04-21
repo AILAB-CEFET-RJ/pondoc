@@ -8,9 +8,10 @@ import logging
 from .database import db
 logging.basicConfig(level=logging.DEBUG)
 
-
+# TODO: Criar o report não deve ser responsabilidade do main, e sim de um serviço
 def main(beginYear: str, endYear: str):
 
+    # TODO: Permitir mais de um arquivo sendo salvo por vez
     file = 'report'
     logging.info(f"Gerando relatório:")
     logging.info(f"De: {beginYear}")
@@ -58,3 +59,4 @@ def main(beginYear: str, endYear: str):
     print('Inserindo dados...')
     insertData(period, file, rJauthorsnorm, resultsJournals,
                discauthorsJ, rCauthorsnorm, resultsConferences, discauthorsC)
+        #TODO: Inserir dados também no banco postgres

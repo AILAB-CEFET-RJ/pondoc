@@ -4,6 +4,7 @@ import psycopg2
 
 class Database():
     # Função para criar conexão no banco
+    #TODO: Carregar credencias via environment
     def conect_db(self):
         db = psycopg2.connect(host='postgres',
                               dbname='postgres',

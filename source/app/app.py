@@ -7,11 +7,12 @@ create_tables()
 app = Flask(__name__)
 
 
+#TODO: Listar relatóis para baixar
 @app.route("/")
 def index():
     return render_template('createReport.html')
 
-
+#TODO: Criar estrutura de dados
 @app.route("/createReport", methods=['POST'])
 def createReport():
     body: dict = request.get_json()
