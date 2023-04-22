@@ -4,31 +4,34 @@ services:
     python:
         build:
             dockerfile: ./Dockerfile
+        working_dir: /app
+        command: python3 -m flask --app app/app.py run --host=0.0.0.0 --debug
+        
         depends_on:
-            - "postgres"
+            - postgres
         volumes: 
-            - $PWD/out:$PWD/out
+            - ./source:/app
         env_file:
             - .env  
         ports:
-            - 5000:5000
+            - ${APP_PORT}:5000
         networks: 
             - python-network
             - postgres-network
     postgres:
         image: postgres:alpine
         volumes:
-            - postgres:/var/lib/posgresql/data
+            - postgres-volume:/var/lib/posgresql/data
         environment:
-            POSTGRES_USER: postgres
-            POSTGRES_PASSWORD: postgres
-            POSTGRES_DB: pondoc
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            POSTGRES_DB: ${POSTGRES_DB}
         ports:
             - 5432:5432
         networks:
             - postgres-network
 volumes:
-  postgres:
+  postgres-volume:
     driver: local
 
 networks:
