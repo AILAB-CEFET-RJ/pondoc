@@ -60,13 +60,15 @@ def lperiodData(wb, journals, issn, qualisj, colorj):
         wb[f'M{i}']= f'=MAX(VLOOKUP(L{i},Tabelas!A:C,2,FALSE),VLOOKUP(J{i},Tabelas!A:C,2,FALSE),VLOOKUP(J{i},Tabelas!A:C,2,FALSE))'
 
 def insertData(period, file, rJauthorsnorm, resultsJournals, discauthorsJ, rCauthorsnorm, resultsConferences, discauthorsC):
-    wb = openpyxl.load_workbook(filename = file)
-    titlesj, journals, issn, yearj, qualisj, colorj, titlesc, conferences, yearc, qualisurlc = refInfos(resultsJournals, resultsConferences) #qualisurlj, qualisc, colorc
 
-    wb['Conferencias'].delete_rows(2, 150)
-    wb['Periodicos'].delete_rows(2, 150)
-    wb['LConferencias'].delete_rows(2, 200)
-    wb['LPeriodicos'].delete_rows(2, 200)
+    wb = openpyxl.Workbook()
+    wb.create_sheet('Conferencias')
+    wb.create_sheet('Periodicos')
+    wb.create_sheet('LConferencias')
+    wb.create_sheet('LPeriodicos')
+    
+    wb.save(file)
+    titlesj, journals, issn, yearj, qualisj, colorj, titlesc, conferences, yearc, qualisurlc = refInfos(resultsJournals, resultsConferences) #qualisurlj, qualisc, colorc
 
     conferData(wb['Conferencias'], discauthorsC, titlesc, conferences, yearc)    #colorc
     periodData(wb['Periodicos'], discauthorsJ, titlesj, journals, yearj, colorj)

@@ -10,7 +10,6 @@ class Database():
                               user='postgres',
                               password='postgres',
                               port='5432')
-        logging.info('Db connection successfull')
         return db
 
     # Função para criar ou dropar uma tabela no banco

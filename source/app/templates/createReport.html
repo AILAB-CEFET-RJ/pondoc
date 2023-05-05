@@ -16,7 +16,7 @@
 <body>
     <div class="container-sm size600">
         <div class="row">
-            <div class="mb-3">
+            <div class="mb-3" id="form-wrapper">
                 <form onsubmit="createReport(event)">
                     <h2>Gerar relatório</h2>
                     <div class="mb-3">
@@ -70,12 +70,17 @@
                 'Content-Type': 'application/json'
             }
         })
-            .then(res => { toggle(); return res.json() })
-            .then(response => {
-                toggle()
-                alert('Success:', JSON.stringify(response))
+            .then(res => { return res.blob() })
+            .then(blob => {
+                const url = window.URL.createObjectURL(new Blob([blob]));
+                const link = document.createElement('a');
+                link.href = url;
+                link.setAttribute('download', 'tabela.xlsx');
+                document.body.appendChild(link);
+                link.click();
             })
-            .catch(error => alert('Error:', error));
+            .catch(error => console.log(error))
+            .finally(() => toggle());
     }
 </script>
 <style>

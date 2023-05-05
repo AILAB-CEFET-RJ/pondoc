@@ -1,6 +1,7 @@
 import json
 from .database import db
 import csv
+from unidecode import unidecode
 
 
 def create_tables():
@@ -40,7 +41,7 @@ def create_tables():
         for researcher in researchers:
             for citations in researchers[researcher]:
                 db.insert_delete_db(
-                    f"INSERT INTO researchers (nome, referencia) VALUES ('{researcher.upper()}', '{citations.upper()}')")
+                    f"INSERT INTO researchers (nome, referencia) VALUES ('{unidecode(researcher).upper()}', '{unidecode(citations).upper()}')")
 
     # students
     with open(f'{basePath}/discentes.csv', encoding='utf-8') as arq:
@@ -49,9 +50,9 @@ def create_tables():
         for line in discentes:
             if 'nome' not in line:
                 db.insert_delete_db(
-                    f"INSERT INTO students (nome, referencia) VALUES ('{line[0].upper()}', '{line[1].upper()}')")
+                    f"INSERT INTO students (nome, referencia) VALUES ('{unidecode(line[0]).upper()}', '{unidecode(line[1]).upper()}')")
                 db.insert_delete_db(
-                    f"INSERT INTO students (nome, referencia) VALUES ('{line[0].upper()}', '{line[2].upper()}')")
+                    f"INSERT INTO students (nome, referencia) VALUES ('{unidecode(line[0]).upper()}', '{unidecode(line[2]).upper()}')")
     # qualis
     with open(f'{basePath}/qualis.csv', encoding='utf-8') as arq:
         qualis = csv.reader(arq)
@@ -60,7 +61,7 @@ def create_tables():
         for line in qualis:
             if 'ISSN' not in line:
                 line[1] = line[1].replace("'", '')
-                rows.append(f"('{line[0]}', '{line[1]}', '{line[2]}')")
+                rows.append(f"('{unidecode(line[0]).upper()}', '{unidecode(line[1])}', '{unidecode(line[2])}')")
                 if len(rows)  == LIMIT:
                     values = ''
                     for row in rows:
