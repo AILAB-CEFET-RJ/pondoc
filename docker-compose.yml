@@ -18,6 +18,21 @@ services:
         networks: 
             - python-network
             - postgres-network
+    
+    cron:
+        build:
+            context: .
+            dockerfile: ./docker/cron/Dockerfile
+        depends_on:
+            - postgres
+        volumes: 
+            - ./source:/app
+        env_file:
+            - .env
+        networks:
+            - cron-network
+            - postgres-network
+
     postgres:
         image: postgres:alpine
         volumes:
@@ -36,6 +51,8 @@ volumes:
 
 networks:
     python-network:
+        driver: bridge
+    cron-network:
         driver: bridge
     postgres-network:
         driver: bridge
