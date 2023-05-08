@@ -31,11 +31,11 @@ services:
         networks:
             - postgres-network
 volumes:
-  postgres-volume:
-    driver: local
+    postgres-volume:
+        driver: local
 
 networks:
-  python-network:
-    driver: bridge
-  postgres-network:
-    driver: bridge
+    python-network:
+        driver: bridge
+    postgres-network:
+        driver: bridge
