@@ -6,7 +6,7 @@ class Database():
     # Função para criar conexão no banco
     def conect_db(self):
         db = psycopg2.connect(host='postgres',
-                              dbname='postgres',
+                              dbname='pondoc',
                               user='postgres',
                               password='postgres',
                               port='5432')
