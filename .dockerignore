@@ -2,7 +2,6 @@
 **/venv
 **/docs
 **/__pycache__
-**/out
 
 # files types
 **.md

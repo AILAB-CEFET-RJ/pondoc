@@ -6,10 +6,13 @@ services:
             dockerfile: ./Dockerfile
         depends_on:
             - "postgres"
+        volumes: 
+            - /out:/out
         env_file:
             - .env  
         ports:
             - 5000:5000
+        restart: always
     postgres:
         image: postgres:alpine
         environment:
