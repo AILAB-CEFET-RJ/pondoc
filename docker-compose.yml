@@ -4,23 +4,55 @@ services:
     python:
         build:
             dockerfile: ./Dockerfile
+        working_dir: /app
+        command: python3 -m flask --app app/app.py run --host=0.0.0.0 --debug
+        
         depends_on:
-            - "postgres"
+            - postgres
         volumes: 
-            - /out:/out
+            - ./source:/app
         env_file:
             - .env  
         ports:
-            - 5000:5000
-        restart: always
+            - ${APP_PORT}:5000
+        networks: 
+            - python-network
+            - postgres-network
+    
+    cron:
+        build:
+            context: .
+            dockerfile: ./docker/cron/Dockerfile
+        depends_on:
+            - postgres
+        volumes: 
+            - ./source:/app
+        env_file:
+            - .env
+        networks:
+            - cron-network
+            - postgres-network
+
     postgres:
         image: postgres:alpine
+        volumes:
+            - postgres-volume:/var/lib/posgresql/data
         environment:
-            POSTGRES_USER: postgres
-            POSTGRES_PASSWORD: postgres
-            POSTGRES_DB: pondoc
+            POSTGRES_USER: ${POSTGRES_USER}
+            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
+            POSTGRES_DB: ${POSTGRES_DB}
         ports:
-            - 5434:5432
+            - 5432:5432
+        networks:
+            - postgres-network
 volumes:
-  postgres:
-    driver: local
+    postgres-volume:
+        driver: local
+
+networks:
+    python-network:
+        driver: bridge
+    cron-network:
+        driver: bridge
+    postgres-network:
+        driver: bridge

@@ -1,14 +1,15 @@
 import logging
 import psycopg2
-
+import os 
 
 class Database():
     # Função para criar conexão no banco
+    #TODO: Carregar credencias via environment
     def conect_db(self):
         db = psycopg2.connect(host='postgres',
-                              dbname='pondoc',
-                              user='postgres',
-                              password='postgres',
+                              dbname=os.getenv('POSTGRES_DB'),
+                              user=os.getenv('POSTGRES_USER'),
+                              password=os.getenv('POSTGRES_PASSWORD'),
                               port='5432')
         return db
 
