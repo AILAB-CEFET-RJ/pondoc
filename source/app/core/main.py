@@ -110,4 +110,5 @@ def main(beginYear: str, endYear: str):
     logging.info('Inserindo dados...')
     insertData(period, filename, rJauthorsnorm, resultsJournals,
                discauthorsJ, rCauthorsnorm, resultsConferences, discauthorsC)
-    return filename
+    return filename 
+
