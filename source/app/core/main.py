@@ -6,6 +6,7 @@ from .transcriber import insertData
 from .analyzer import parsePublication
 import argparse
 import traceback
+import os
 import logging
 from .database import db
 from unidecode import unidecode
@@ -21,7 +22,7 @@ def log_traceback(ex, ex_traceback=None):
 
 def main(beginYear: str, endYear: str):
     now = datetime.now()
-    filename = '/report_%s.xlsx' % int(now.timestamp())
+    filename = os.path.dirname(os.path.abspath(__file__)) + '/../storage/reports/report_' + str(int(now.timestamp())) + '.xlsx'
     logging.info(f"Gerando relatório:")
     logging.info(f"De: {beginYear}")
     logging.info(f"Até: {endYear}")
@@ -44,7 +45,7 @@ def main(beginYear: str, endYear: str):
         number_of_errors_publications = 0
         number_of_errors_conferences = 0
 
-        logging.info(f'Tratando dados de Periodicos - {ano}')
+        logging.info(f'Tratando {len(infosp)} dados de Periodicos - {ano}')
 
         for i in infosp:
             doc = result = dis = None
@@ -65,7 +66,7 @@ def main(beginYear: str, endYear: str):
                 logging.error('Error in citation: %s', unidecode(i))
                 log_traceback(ex)
 
-        logging.info(f'Tratando dados de Publicações Aceitas - {ano}')
+        logging.info(f'Tratando {len(infosa)} dados de Publicações Aceitas - {ano}')
         for i in infosa:
             try:
                 result=parsePublication(unidecode(i).upper())
@@ -85,7 +86,7 @@ def main(beginYear: str, endYear: str):
                 log_traceback(ex)
 
 
-        logging.info(f'Tratando dados de Conferência - {ano}')
+        logging.info(f'Tratando {len(infosc)} dados de Conferência - {ano}')
         for i in infosc:
             try:
                 result=parsePublication(unidecode(i).upper())

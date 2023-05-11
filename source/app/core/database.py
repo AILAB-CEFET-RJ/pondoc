@@ -6,11 +6,22 @@ class Database():
     # Função para criar conexão no banco
     #TODO: Carregar credencias via environment
     def conect_db(self):
-        db = psycopg2.connect(host='postgres',
-                              dbname=os.getenv('POSTGRES_DB'),
-                              user=os.getenv('POSTGRES_USER'),
-                              password=os.getenv('POSTGRES_PASSWORD'),
-                              port='5432')
+        attempt = 0
+        error = None
+        while attempt < 5:
+            try:
+                db = psycopg2.connect(host='postgres',
+                                      dbname=os.getenv('POSTGRES_DB'),
+                                      user=os.getenv('POSTGRES_USER'),
+                                      password=os.getenv('POSTGRES_PASSWORD'),
+                                      port='5432')
+                return db
+            except Exception as e:
+                error = e
+                logging.info("Error: %s" % error)
+                attempt += 1
+        if attempt == 5 and error is not None:
+            raise error
         return db
 
     # Função para criar ou dropar uma tabela no banco
