@@ -45,6 +45,19 @@ services:
             - 5432:5432
         networks:
             - postgres-network
+    pgadmin:
+        image: dpage/pgadmin4
+        environment:
+            PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+            PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+        volumes:
+            - ./docker/pgadmin/pgadmin4/servers.json:/pgadmin4/servers.json
+        ports:
+            - 5050:80
+        networks:
+            - pgadmin-network
+            - postgres-network
+ 
 volumes:
     postgres-volume:
         driver: local
@@ -55,4 +68,6 @@ networks:
     cron-network:
         driver: bridge
     postgres-network:
+        driver: bridge
+    pgadmin-network:
         driver: bridge
