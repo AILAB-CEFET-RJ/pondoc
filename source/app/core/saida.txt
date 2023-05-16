@@ -1,0 +1,616 @@
+['BRONDANI, A', 'LIMA, L. S.', 'ABREU, N. M. M.', 'Oliveira, C. S..']
+A note on the Nordhaus-Gaddum type inequality to the second largest eigenvalue of a graph
+('Applicable Analysis and Discrete Mathematics.', '2017', 'B1 (APPLICABLE ANALYSIS AND DISCRETE MATHEMATICS)')
+
+['DA SILVA, POLY H.', 'Machado, Raphael', 'Dantas, Simone', 'BRAGA, MARILIA D.V..']
+Genomic Distance with High Indel Costs
+('IEEE-ACM Transactions on Computational Biology and Bioinformatics.', '2017', 'A1 (IEEE/ACM TRANSACTIONS ON COMPUTATIONAL BIOLOGY AND BIOI)')
+
+['Dantas, Simone', 'GROSHAUS, MARINA', 'GUEDES, ANDRÉ', 'Machado, Raphael C. S.', 'RIES, BERNARD', 'SASAKI, DIANA.']
+On star and biclique edge-colorings
+('International Transactions in Operational Research.', '2017', 'A2 (OPERATIONAL RESEARCH)')
+
+['DE SA, ALAN OLIVEIRA', 'CARMO, LUIZ F. RUST DA COSTA', 'Machado, Raphael C. S..']
+Covert Attacks in Cyber-Physical Control Systems
+('IEEE Transactions on Industrial Informatics.', '2017', 'A1 (IEEE TRANSACTIONS ON INDUSTRIAL INFORMATICS)')
+
+['FILHO, H. B. MACÊDO', 'MACHADO, R. C. S.', 'DE FIGUEIREDO, C. M. H..']
+Efficient Algorithms for Clique-Colouring and Biclique-Colouring Unichord-Free Graphs
+('ALGORITHMICA.', '2017', 'B1')
+
+['Haddad, Diego B.', 'LIMA, MARKUS V. S.', 'MARTINS, WALLACE A.', 'BISCAINHO, LUIZ W. P.', 'NUNES, LEONARDO O.', 'LEE, BOWON.']
+Acoustic Sensor Self-Localization: Models and Recent Results
+('WIRELESS COMMUNICATIONS AND MOBILE COMPUTING.', '2017', 'B2')
+
+['MARINHO, A.', 'DE OLIVEIRA, DANIEL', 'OGASAWARA, E.', 'SILVA, VITOR', 'OCAÑA, KARY', 'Murta, Leonardo', 'BRAGANHOLO, V.', 'MATTOSO, M. L. Q..']
+Deriving scientific workflows from algebraic experiment lines: A practical approach
+('Future Generation Computer Systems.', '2017', 'A1 (FUTURE GENERATION COMPUTER SYSTEMS)')
+
+['SA, A.', 'L. F. R. da C. Carmo', 'Machado, R.C.S..']
+Bio-inspired Active System Identification: a Cyber-Physical Intelligence Attack in Networked Control Systems
+('MOBILE NETWORKS & APPLICATIONS.', '2017', 'Não identificado (MOBILE NETWORKS & APPLICATIONS)')
+
+['BENTO, LUCILA M.S.', 'BOCCARDO, DAVIDSON R.', 'Machado, Raphael C.S.', 'PEREIRA DE SÁ, VINÍCIUS G.', 'SZWARCFITER, JAYME LUIZ.']
+On the resilience of canonical reducible permutation graphs
+('DISCRETE APPLIED MATHEMATICS.', '2018', 'A2')
+
+['DE MACEDO FILHO, H.B.', 'de Figueiredo, C.M.H.', 'LI, Z.', 'Machado, R.C.S..']
+Using SPQR-trees to speed up recognition algorithms based on 2-cutsets
+('DISCRETE APPLIED MATHEMATICS.', '2018', 'A2')
+
+['DE SÁ, ALAN O.', 'DA COSTA CARMO, LUIZ F. R.', 'Machado, Raphael C. S..']
+A controller design for mitigation of passive system identification attacks in networked control systems
+('JOURNAL OF INTERNET SERVICES AND APPLICATIONS.', '2018', 'A2')
+
+['DOS SANTOS, J. A. F.', 'MUCHALUAT-SAADE, DÉBORA C.', 'ROISIN, CÉCILE', 'LAYAÏDA, NABIL.']
+A Hybrid Approach for Spatio-temporal Validation of Declarative Multimedia Documents
+('ACM Transactions on Multimedia Computing Communications and Applications.', '2018', 'A2 (ACM TRANSACTIONS ON MULTIMEDIA COMPUTING COMMUNICAT)')
+
+['LARA, PEDRO', 'OLINTO, KAREN DA S.', 'PETRAGLIA, FELIPE R.', 'Haddad, Diego B..']
+Exact analysis of the least-mean-square algorithm with coloured measurement noise
+('ELECTRONICS LETTERS.', '2018', 'B1')
+
+['MELO JUNIOR, W.', 'Machado, R.C.S.', 'L. F. R. da C. Carmo.']
+Using Physical Context-Based Authentication against External Attacks: Models and Protocols
+('Security and Communication Networks.', '2018', 'B1 (SECURITY AND COMMUNICATION NETWORKS)')
+
+['SALLES, REBECCA', 'BELLOZE, KELE', 'PORTO, FABIO', 'GONZALEZ, PEDRO H.', 'OGASAWARA, EDUARDO.']
+Nonstationary time series transformation methods: An experimental review
+('KNOWLEDGE-BASED SYSTEMS.', '2018', 'A1')
+
+['TEIXEIRA, MARLON AMARO COELHO', 'BELLOZE, KELE TEIXEIRA', 'CAVALCANTI, MARIA CLÁUDIA', 'SILVA-JUNIOR, FLORIANO P..']
+Data Mart Construction based on Semantic Annotation of Scientific Articles: A Case Study for the Prioritization of Drug Targets
+('COMPUTER METHODS AND PROGRAMS IN BIOMEDICINE.', '2018', 'A1 (COMPUTER METHODS AND PROGRAMS IN BIOMEDICINE (PRINT))')
+
+['ZHOU, RODRIGO M.', 'de Figueiredo, Celina M.H.', 'Machado, Raphael C.S.', 'DE SÁ, VINÍCIUS G. PEREIRA.']
+On the embedding of cone graphs in the line with distinct distances between neighbors
+('DISCRETE APPLIED MATHEMATICS.', '2018', 'A2')
+
+['ANDRADE, FABIO A. A.', 'HOVENBURG, ANTHONY', 'DE LIMA, LUCIANO NETTO DE', 'RODIN, CHRISTOPHER DAHLIN', 'JOHANSEN, TOR ARNE', 'STORVOLD, RUNE', 'CORREIA, CARLOS A. M.', 'HADDAD, Diego Barreto.']
+Autonomous Unmanned Aerial Vehicles in Search and Rescue Missions Using Real-Time Cooperative Model Predictive Control
+('SENSORS.', '2019', 'A1')
+
+['BENTO, LUCILA M. S.', 'BOCCARDO, DAVIDSON R.', 'Machado, Raphael C. S.', 'PEREIRA DE SÁ, VINÍCIUS G.', 'SZWARCFITER, JAYME L..']
+Full Characterization of a Class of Graphs Tailored for Software Watermarking
+('ALGORITHMICA.', '2019', 'B1')
+
+['BENTO, LUCILA M.S.', 'BOCCARDO, DAVIDSON R.', 'Machado, Raphael C.S.', 'MIYAZAWA, FLÁVIO K.', 'PEREIRA DE SÁ, VINÍCIUS G.', 'SZWARCFITER, JAYME L..']
+Dijkstra graphs
+('DISCRETE APPLIED MATHEMATICS.', '2019', 'A2')
+
+['Boaventura Netto, P.O.', 'de Lima, L.S.', 'CAPOROSSI, G..']
+Exhaustive and Metaheuristic Exploration of Two New Structural Irregularity Measures
+('MATCH-COMMUNICATIONS IN MATHEMATICAL AND IN COMPUTER CHEMISTRY.', '2019', 'B1')
+
+['BRONDANI, ANDRÉ EBLING', 'Oliveira, Carla Silva', 'FRANÇA, FRANCISCA ANDREA MACEDO', 'de Lima, Leonardo.']
+A -Spectrum of a Firefly Graph
+('ELECTRONIC NOTES IN THEORETICAL COMPUTER SCIENCE.', '2019', 'B2')
+
+['CABRAL, F. L.', 'OSTHOFF, C.', 'COSTA, G.', 'GONZAGA, S. L. de O.', 'BRANDAO, DIEGO', 'KISCHINHEVSKY, MAURICIO.']
+An evaluation of MPI and OpenMP paradigms in finite-difference explicit methods for PDEs on shared-memory multi- and manycore systems
+('CONCURRENCY AND COMPUTATION-PRACTICE & EXPERIENCE.', '2019', 'B1 (CONCURRENCY AND COMPUTATION: PRACTICE & EXPERIENCE)')
+
+['CABRAL, F. L.', 'OSTHOFF, C.', 'SOUTO, R. P.', 'COSTA, G.', 'GONZAGA, S. L. de O.', 'Brandão, D.', 'Kischinhevsky, M..']
+Fine-Tuning an OpenMP-Based TVD Hopmoc Method Using Intel® Parallel Studio XE Tools on Intel® Xeon® Architectures
+('COMMUNICATIONS IN COMPUTER AND INFORMATION SCIENCE (PRINT).', '2019', 'B3 (COMMUNICATIONS IN COMPUTER AND INFORMATION SCIENCE (PR)')
+
+['CARDOSO, JOSUE', 'CAETANO, DIEGO', 'ABREU, RAPHAEL', 'QUADROS, JOAO', 'DOS SANTOS, J. A. F.', 'OGASAWARA, E.', 'LIGNANI, LEONARDO.']
+Supporting the Learning of Evolution Theory Using an Educational Simulator
+('IEEE Transactions on Learning Technologies.', '2019', 'A1 (IEEE TRANSACTIONS ON LEARNING TECHNOLOGIES)')
+
+['DA ROCHA HENRIQUES, FELIPE', 'LOVISOLO, LISANDRO', 'BARROS DA SILVA, EDUARDO.']
+Rate-Distortion Performance and Incremental Transmission Scheme of Compressive Sensed Measurements in Wireless Sensor Networks
+('SENSORS.', '2019', 'A1')
+
+['DE ASSIS, LAURA S.', 'DE P. JUNIOR, JURAIR R.', 'TARRATACA, LUIS', 'FONTOURA, ALAN R.', 'Haddad, Diego B..']
+Efficient Volterra systems identification using hierarchical genetic algorithms
+('APPLIED SOFT COMPUTING.', '2019', 'A1 (APPLIED SOFT COMPUTING (PRINT))')
+
+['DE SOUZA, JOSÉ V. G.', 'HADDAD, DIEGO B.', 'HENRIQUES, FELIPE DA R.', 'PETRAGLIA, MARIANE R..']
+Novel Proportionate Adaptive Filters with Coefficient Vector Reusing
+('CIRCUITS SYSTEMS AND SIGNAL PROCESSING.', '2019', 'A2 (CIRCUITS, SYSTEMS, AND SIGNAL PROCESSING)')
+
+['DIAS, M. V.', 'BEZERRA, E.', 'GOLDSCHMIDT, R. R..']
+Contextual Information Based Community Detection in Attributed Heterogeneous Networks
+('IEEE Latin America Transactions.', '2019', 'B3')
+
+['González, Pedro Henrique', 'CLÍMACO, GLAUBOS', 'MAURI, GERALDO REGIS', 'VIEIRA, BRUNO SALEZZE', 'RIBEIRO, GLAYDSTON MATTOS', 'ORRICO FILHO, ROMULO DANTE', 'SIMONETTI, LUIDI', 'PERIM, LEONARDO ROBERTO', 'HOFFMANN, IVONE CATARINA SIMÕES.']
+New approaches for the traffic counting location problem
+('EXPERT SYSTEMS WITH APPLICATIONS.', '2019', 'A1')
+
+['GRIJO, R.', 'de Lima, L.S.', 'OLIVEIRA, C.', 'PORTO, G.', 'TREVISAN, V..']
+Nordhaus-Gaddum type inequalities for the two largest Laplacian eigenvalues
+('DISCRETE APPLIED MATHEMATICS.', '2019', 'A2')
+
+['LARA, PEDRO', 'HADDAD, DIEGO', 'TARRATACA, LUIS', 'TEODORO, THIAGO', 'IGREJA, FILIPE.']
+Exact Expectation Analysis of the LMS Adaptive Identification of Nonlinear Systems
+('ELECTRONICS LETTERS.', '2019', 'B1')
+
+['LARA, PEDRO', 'Haddad, Diego B.', 'TARRATACA, LUÍS.']
+Advances on the analysis of the LMS algorithm with a colored measurement noise
+('SIGNAL, IMAGE AND VIDEO PROCESSING.', '2019', 'B1')
+
+['LARA, PEDRO', 'IGREJA, FILIPE', 'TARRATACA, LUIS D. T. J.', 'HADDAD, Diego Barreto', 'Petraglia, Mariane R..']
+Exact Expectation Evaluation and Design of Variable Step-Size Adaptive Algorithms
+('IEEE SIGNAL PROCESSING LETTERS.', '2019', 'A1')
+
+['LARA, PEDRO', 'TARRATACA, LUÍS D.T.J.', 'Haddad, Diego B..']
+Exact Expectation Analysis of the Deficient-Length LMS Algorithm
+('SIGNAL PROCESSING.', '2019', 'A1')
+
+['MACAMBIRA, ANA FLAVIA UZEDA', 'SIMONETTI, LUIDI', 'BARBALHO, HUGO', 'GONZALEZ, PEDRO HENRIQUE', 'MACULAN, NELSON.']
+A new formulation for the Safe Set problem on graphs
+('COMPUTERS & OPERATIONS RESEARCH.', '2019', 'A1')
+
+['PETRAGLIA, MARIANE', 'RESENDE, LEONARDO', 'HADDAD, DIEGO', 'FERREIRA, GUILHERME', 'CAMPELO, PEDRO.']
+Sparsity-Aware Reuse of Coefficients NLMS
+('ELECTRONICS LETTERS (ONLINE).', '2019', 'Não identificado (ELECTRONICS LETTERS (ONLINE))')
+
+['SA, A.', 'Machado, R.C.S.', 'ALMEIDA, N. N..']
+O Encontro da Guerra Cibernética com as Guerras Eletrônica e Cinética no Âmbito do Poder Marítimo
+('REVISTA DA ESCOLA DE GUERRA NAVAL (ED. PORTUGUÊS).', '2019', 'B1 (REVISTA DA ESCOLA DE GUERRA NAVAL)')
+
+['SALLES, REBECCA', 'BELLOZE, KELE', 'PORTO, FABIO', 'GONZALEZ, PEDRO H.', 'OGASAWARA, EDUARDO.']
+Nonstationary time series transformation methods: An experimental review
+('KNOWLEDGE-BASED SYSTEMS.', '2019', 'A1')
+
+['ABREU, N.M.M.', 'ALENCAR, J.', 'BRONDANI, A', 'de Lima, Leonardo', 'OLIVEIRA, C..']
+Graphs with all but two eigenvalues in [-2,0]
+('Discussiones Mathematicae Graph Theory.', '2020', 'B3 (DISCUSSIONES MATHEMATICAE')
+
+['ABREU, RAPHAEL', 'MATTOS, D. P.', 'DOS SANTOS, JOEL A. F.', 'GHINEA, G.', 'MUCHALUAT-SAADE, DÉBORA C..']
+Towards content-driven intelligent authoring of mulsemedia applications
+('IEEE MULTIMEDIA.', '2020', 'A2')
+
+['Abreu, V. H. S.', 'González, P.H.', 'Mauri, G. R.', 'Ribeiro, G. M.', 'ORRICO, R. D.', 'Campos Junior, N. F. R.', 'Abramides, C. A..']
+Network sensor location problem with monitored lanes: Branch-and-cut and clustering search solution techniques
+('COMPUTERS & INDUSTRIAL ENGINEERING.', '2020', 'A1')
+
+['AMORIM, GLAUCO F.', 'DOS SANTOS, JOEL A. F.', 'MUCHALUAT-SAADE, DÉBORA C..']
+Providing adjustable and dynamic spatial layouts for multimedia applications with STyLe
+('MULTIMEDIA TOOLS AND APPLICATIONS.', '2020', 'A2')
+
+['BARONI, L.', 'PEDROSO, M.', 'BARCELLOS, C.', 'SALLES, REBECCA', 'SALLES, S.', 'PAIXAO, B.', 'CHRISPINO, A.', 'GUEDES, Gustavo Paiva', 'OGASAWARA, EDUARDO.']
+An integrated dataset of malaria notifications in the Legal Amazon
+('BMC RESEARCH NOTES.', '2020', 'B2')
+
+['BARONI, L.', 'SALLES, REBECCA', 'SALLES, S.', 'SILVA, G. P. G. E.', 'BEZERRA, E.', 'BARCELLOS, C.', 'PEDROSO, M. M.', 'OGASAWARA, E..']
+An Analysis of Malaria in the Brazilian Legal Amazon Using Divergent Association Rules
+('JOURNAL OF BIOMEDICAL INFORMATICS.', '2020', 'A2')
+
+['BASTOS, A. C. O.', 'SOUZA, D. D. L.', 'SILVA, D. A.', 'SILVA, I. P.', 'ALBUQUERQUE, D.', 'CARVALHO, C. S.', 'PREGO, T. M.', 'FERREIRA, J. C. V.', 'SILVA, F. L.', 'COUTINHO, R..']
+Despertando o interesse pelo conhecimento tecnológico usando Robótica: Uma experiência na Educação Básica para igualdade de gênero
+('REVISTA LATINOAMERICANA DE TECNOLOGÍA EDUCATIVA.', '2020', 'A2')
+
+['BORGES, H.', 'DUTRA, M.', 'BAZAZ, A.', 'COUTINHO, R.', 'PEROSI, F.', 'PORTO, F.', 'MASSEGLIA, F.', 'PACITTI, ESTHER', 'OGASAWARA, E..']
+Spatial-time motifs discovery
+('Intelligent Data Analysis.', '2020', 'B3 (INTELLIGENT DATA ANALYSIS (PRINT))')
+
+['CARDOSO, JOSUE', 'CAETANO, DIEGO', 'ABREU, RAPHAEL', 'QUADROS, JOAO', 'SANTOS, JOEL DOS', 'OGASAWARA, EDUARDO', 'LIGNANI, LEONARDO.']
+Supporting the Learning of Evolution Theory Using an Educational Simulator
+('IEEE Transactions on Learning Technologies.', '2020', 'A1 (IEEE TRANSACTIONS ON LEARNING TECHNOLOGIES)')
+
+['CARMO, RAFAEL M.', 'TARRATACA, LUÍS', 'COLARES, JEFFERSON', 'HENRIQUES, FELIPE R.', 'Haddad, Diego B.', 'GUEDES, RAPHAEL M..']
+Distributed Adaptive Filtering on Wireless Sensor Networks with Shared Medium Competition
+('LEARNING AND NONLINEAR MODELS.', '2020', 'B3')
+
+['CARVALHO, L.', 'STERNBERG, A.', 'GONCALVES, L. M.', 'CRUZ, A. B.', 'SOARES, J. A.', 'BRANDÃO, D. N.', 'CARVALHO, D. M. A.', 'OGASAWARA, E..']
+On the Relevance of Data Science for Flight Delay Research: A Systematic Review
+('Transport Reviews.', '2020', 'A1 (TRANSPORT REVIEWS)')
+
+['CASTRO, RAFAELA', 'SOUTO, YANIA M.', 'Ogasawara, Eduardo', 'PORTO, FABIO', 'BEZERRA, EDUARDO.']
+STConvS2S: Spatiotemporal Convolutional Sequence to Sequence Network for weather forecasting
+('NEUROCOMPUTING.', '2020', 'A2')
+
+['de Lima, L.S.', 'MOHAMMADIAN, A.', 'Oliveira, C. S..']
+On integral graphs with at most two vertices of degree larger than two
+('LINEAR ALGEBRA AND ITS APPLICATIONS.', '2020', 'B1')
+
+['DE SOUZA, JOSÉ V. G.', 'Haddad, Diego B.', 'HENRIQUES, FELIPE DA R.', 'Petraglia, Mariane R..']
+Novel Proportionate Adaptive Filters with Coefficient Vector Reusing
+('CIRCUITS SYSTEMS AND SIGNAL PROCESSING.', '2020', 'A2 (CIRCUITS, SYSTEMS, AND SIGNAL PROCESSING)')
+
+['DO PRADO, ROBSON A.', 'GUEDES, RAPHAEL M.', 'HENRIQUES, FELIPE DA R.', 'DA COSTA, FELIPE M.', 'TARRATACA, LUÍS D. T. J.', 'HADDAD, DIEGO B..']
+On the Analysis of the Incremental $$ell _0$$-LMS Algorithm for Distributed Systems
+('CIRCUITS SYSTEMS AND SIGNAL PROCESSING.', '2020', 'A2 (CIRCUITS, SYSTEMS, AND SIGNAL PROCESSING)')
+
+['Fernandes, K.', 'TENEMBAUM, R. A.', 'MITACC, E.', 'SOUZA FILHO, J. B. O. E.', 'BRANDAO, DIEGO.']
+Use of the Luus?Jaakola optimization method to minimize water and energy consumption in scheduling irrigation with center pivot systems
+('IRRIGATION SCIENCE.', '2020', 'A2')
+
+['FERRARI, LILIAN', 'AVELAR, M.', 'GUEDES, Gustavo Paiva.']
+WhatsApp: uma mesclagem multimodal contemporânea
+('VEREDAS - REVISTA DE ESTUDOS LINGUÍSTICOS.', '2020', 'A1')
+
+['GONZAGA, THIAGO R. P.', 'JUNIOR, VALMIR DOS S. N.', 'DE BARROS, ANA L. F.', 'HENRIQUES, FELIPE DA R.', 'HADDAD, DIEGO B..']
+Transient Analysis of the Block Least Mean Squares Algorithm
+('IEEE COMMUNICATIONS LETTERS.', '2020', 'A1 (IEEE COMMUNICATIONS LETTERS (PRINT))')
+
+['GONZÁLEZ SILVA, PEDRO HENRIQUE', 'MACAMBIRA, ANA FLÁVIA U. S.', 'PINTO, RENAN VICENTE', 'SIMONETTI, LUIDI', 'MACULAN, NELSON', 'MICHELON, PHILIPPE.']
+New proposals for modelling and solving the problem of covering solids using spheres of different radii
+('RAIRO-OPERATIONS RESEARCH.', '2020', 'Não identificado (RAIRO-OPERATIONS RESEARCH)')
+
+['GUIMARÃES, VANESSA DE ALMEIDA', 'SKRODER, GUSTAV CARL', 'RIBEIRO, GLAYDSTON MATTOS', 'GONZÁLEZ-SILVA, PEDRO HENRIQUE.']
+Strategic planning of freight transportation to support smart cities design: The Brazilian soybean case
+('REVISTA FACULTAD DE INGENIERÍA UNIVERSIDAD DE ANTIOQUIA.', '2020', 'B4')
+
+['HADDAD, D.B.', 'DOS SANTOS, L.O.', 'ALMEIDA, L.F.', 'SANTOS, G.A.S.', 'PETRAGLIA, M.R..']
+- 2 -norm feature least mean square algorithm
+('ELECTRONICS LETTERS (ONLINE).', '2020', 'Não identificado (ELECTRONICS LETTERS (ONLINE))')
+
+['JUCÁ, MARCO AURÉLIO', 'HADDAD, Diego Barreto', 'SANTOS, ALEXANDRE BESSA.']
+Interrogation system for optical sensor using filter bank and artificial neural network
+('MICROWAVE AND OPTICAL TECHNOLOGY LETTERS.', '2020', 'B1 (MICROWAVE AND OPTICAL TECHNOLOGY LETTERS (PRINT))')
+
+['MONSORES, J.', 'REGINA, T.', 'QUADROS, L. C. T.', 'QUADROS, JOÃO ROBERTO DE TOLEDO.']
+Technology and Gestaltism: A Robotic-Based Learning Aid Tool
+('IEEE Latin America Transactions.', '2020', 'B3')
+
+['PASCHOAL JR, F.', 'RIBEIRO, G. V. S.', 'DAQUER, L. M. de A.', 'MAURO, R. C.', 'OGASAWARA, E.', 'EBECKEN, N..']
+PHYSICAL ACTIVITY LEVEL OF FACEBOOK USERS
+('REVISTA BRASILEIRA DE MEDICINA DO ESPORTE (ONLINE).', '2020', 'B3 (REVISTA BRASILEIRA DE MEDICINA DO ESPORTE (IMPRESSO))')
+
+['PIMENTA, RODRIGO', 'RESENDE, LEONARDO', 'Petraglia, Mariane R.', 'Haddad, Diego B..']
+On the steady-state performance of bias-compensated LMS algorithm
+('ELECTRONICS LETTERS (ONLINE).', '2020', 'Não identificado (ELECTRONICS LETTERS (ONLINE))')
+
+['PINTO, R. C.', 'QUADROS, JOÃO ROBERTO DE TOLEDO.']
+Robotic Tool to Multi Time-Lapse Videos Creation
+('ADVANCES IN INTELLIGENT SYSTEMS AND COMPUTING.', '2020', 'B4')
+
+['RODRIGUES, RAFAEL G.', 'Rodrigues, Kaio G.', 'GOMES, R. R.', 'FERRARI, LILIAN', 'OGASAWARA, EDUARDO', 'GUEDES, Gustavo Paiva.']
+BRAPT: A New Metric for Translation Evaluation Based on Psycholinguistic Perspectives
+('IEEE Latin America Transactions.', '2020', 'B3')
+
+['SANTOS, L.', 'GUEDES, Gustavo Paiva.']
+Identificação de predadores sexuais brasileiros em conversas textuais na internet por meio de aprendizagem de máquina
+('iSys - Revista Brasileira de Sistemas de Informação.', '2020', 'B5 (ISYS: REVISTA BRASILEIRA DE SISTEMAS DE INFORMA')
+
+['SILVA, L.P.R.', 'SOUZA, J.V.G.', 'COLARES, J.', 'LIMA, A.A.', 'HADDAD, D.B..']
+Bias-compensated FX-LMS algorithm
+('ELECTRONICS LETTERS (ONLINE).', '2020', 'Não identificado (ELECTRONICS LETTERS (ONLINE))')
+
+['SILVA, THIAGO T. P.', 'LARA, PEDRO', 'IGREJA, FILIPE', 'OLIVEIRA, FERNANDA D. V. R.', 'TARRATACA, LUIS', 'Haddad, Diego B..']
+An Exact Expectation Model for the LMS Tracking Abilities
+('IEEE Transactions on Signal Processing.', '2020', 'A1 (IEEE TRANSACTIONS ON SIGNAL PROCESSING)')
+
+['VIANA, FELIPE X.', 'ARAUJO, GABRIEL M.', 'PINTO, MILENA F.', 'COLARES, JEFFERSON', 'Haddad, Diego B..']
+Aerial Image Instance Segmentation Through Synthetic Data Using Deep Learning
+('LEARNING AND NONLINEAR MODELS.', '2020', 'B3')
+
+['XAVIER, P.P.S.', 'HADDAD, D.B.', 'DE OLIVEIRA, F.D.V.R.', 'PETRAGLIA, M.R..']
+Improved sparsity-aware NSAF-SF adaptive algorithm
+('ELECTRONICS LETTERS (ONLINE).', '2020', 'Não identificado (ELECTRONICS LETTERS (ONLINE))')
+
+['XAVIER, PEDRO P. S.', 'Haddad, Diego B.', 'Petraglia, Mariane R..']
+On the Performance Analysis of Normalized Subband Adaptive Filtering Algorithm with Sparse Subfilters
+('CIRCUITS SYSTEMS AND SIGNAL PROCESSING.', '2020', 'A2 (CIRCUITS, SYSTEMS, AND SIGNAL PROCESSING)')
+
+['ALVES, V. M. A.', 'VELARDE, L. G. C.', 'SANTORO, R. V.', 'BRANDAO, D.N.', 'A.C. FILHO, R.', 'TABOADA, G. F..']
+Educating diabetic patients through an SMS intervention: a randomized controlled trial at a Brazilian public hospital
+('Archives of Endocrinology Metabolism.', '2021', 'B3 (ARCHIVES OF ENDOCRINOLOGY AND METABOLISM)')
+
+['BARONI, L.', 'SALLES, REBECCA', 'SALLES, S.', 'PEDROSO, M. M.', 'LIMA, J.', 'MORAIS, I.', 'CARRARO, L.', 'SALDANHA, R. F.', 'SOUSA, C.', 'CARDOSO, C.', 'PAIXAO, B.', 'CRUZ, S.', 'OGASAWARA, E.', 'BOCCOLINI, P.', 'BOCCOLINI, C..']
+Neonatal mortality rates in Brazilian municipalities: from 1996 to 2017
+('BMC RESEARCH NOTES.', '2021', 'B2')
+
+['BATALHEIRO, PAULO B.', 'Petraglia, Mariane R.', 'Haddad, Diego B..']
+New efficient subband structures for blind source separation
+('SIGNAL PROCESSING.', '2021', 'A1')
+
+['Brito, J. A. M.', 'Lima, L.S.', 'González, Pedro Henrique', 'OLIVEIRA, B.', 'MACULAN, NELSON.']
+Heuristic approach applied to the optimum stratification problem
+('RAIRO-OPERATIONS RESEARCH.', '2021', 'Não identificado (RAIRO-OPERATIONS RESEARCH)')
+
+['CAMPOS, R. S.', 'HENRIQUES, F. R..']
+Performance Evaluation of a Microstrip Wearable Antenna considering On-Body Curvature
+('RESEARCH INVENTY: INTERNATIONAL JOURNAL OF ENGINEERING AND SCIENCE.', '2021', 'B3 (RESEARCH INVENTY: INTERNATIONAL JOURNAL OF ENGINEERING AN)')
+
+['CARVALHO, LEONARDO', 'STERNBERG, ALICE', 'MAIA GONÇALVES, LEANDRO', 'BEATRIZ CRUZ, ANA', 'SOARES, JORGE A.', 'BRANDÃO, DIEGO', 'CARVALHO, DIEGO', 'Ogasawara, Eduardo.']
+On the relevance of data science for flight delay research: a systematic review
+('TRANSPORT REVIEWS.', '2021', 'A1')
+
+['CASTRO, R.', 'SOUTO, Y. M.', 'OGASAWARA, E. S.', 'PORTO, F.', 'BEZERRA, EDUARDO.']
+STConvS2S: Spatiotemporal Convolutional Sequence to Sequence Network for Weather Forecasting
+('NEUROCOMPUTING.', '2021', 'A2')
+
+['DE SÁ SÓ MARTINS, DIONÍSIO HENRIQUE CARVALHO', 'VIANA, DENYS PESTANA', 'DE LIMA, AMARO AZEVEDO', 'PINTO, MILENA FARIA', 'TARRATACA, LUÍS', 'LOPES E SILVA, FABRÍCIO', 'GUTIÉRREZ, RICARDO HOMERO RAMÍREZ', 'DE MOURA PREGO, THIAGO', 'MONTEIRO, ULISSES ADMAR BARBOSA VICENTE', 'HADDAD, Diego Barreto.']
+Diagnostic and severity analysis of combined failures composed by imbalance and misalignment in rotating machines
+('INTERNATIONAL JOURNAL OF ADVANCED MANUFACTURING TECHNOLOGY (INTERNET).', '2021', 'A2 (INTERNATIONAL JOURNAL OF ADVANCED MANUFACTURING TECHN)')
+
+['DOS SANTOS DE ASSIS, BRENO', 'Ogasawara, Eduardo', 'BARBASTEFANO, RAFAEL', 'CARVALHO, DIEGO.']
+Frequent pattern mining augmented by social network parameters for measuring graduation and dropout time factors: A case study on a production engineering course
+('SOCIO-ECONOMIC PLANNING SCIENCES.', '2021', 'A2')
+
+['VIGNOLI, L. E. G.', 'SALLES, REBECCA', 'LIMA, J.', 'GEA, C.', 'BARONI, L.', 'ZIVIANI, A.', 'PIRES, P. F.', 'DELICATO, F. C.', 'COUTINHO, R. C.', 'ASSIS, L. S.', 'OGASAWARA, E..']
+Evaluating Temporal Bias in Time Series Event Detection Methods
+('Journal of Information and Data Management - JIDM.', '2021', 'B4 (JOURNAL OF INFORMATION AND DATA MANAGEMENT)')
+
+['GARCIA SAMPAIO, RAFAELA APARECIDA', 'E SILVA, FABRÍCIO LOPES', 'DE CARVALHO, CRISTIANO DE SOUZA', 'ARAUJO, GABRIEL MATOS', 'PINTO, MILENA FARIA', 'HADDAD, Diego Barreto', 'FRANÇA, FELIPE MAIA GALVÃO.']
+A Rhythmic Activation Mechanism for Soft Multi-legged Robots
+('JOURNAL OF INTELLIGENT & ROBOTIC SYSTEMS.', '2021', 'Não identificado (JOURNAL OF INTELLIGENT & ROBOTIC SYSTEMS)')
+
+['GOWTHAM, GUTTIKONDA', 'BURRA, SRIKANTH', 'KAR, ASUTOSH', 'ØSTERGAARD, JAN', 'SOORAKSA, PITIKHATE', 'MLADENOVIC, VLADIMIR', 'Haddad, Diego B..']
+A Family of Adaptive Volterra Filters Based on Maximum Correntropy Criterion for Improved Active Control of Impulsive Noise
+('CIRCUITS SYSTEMS AND SIGNAL PROCESSING.', '2021', 'A2 (CIRCUITS, SYSTEMS, AND SIGNAL PROCESSING)')
+
+['Haddad, Diego B.', 'LOVISOLO, Lisandro', 'PETRAGLIA, Mariane Rembold', 'BATALHEIRO, Paulo Bulkool', 'FILHO, JORGE COSTA PIRES.']
+Blind and Semi-blind Anechoic Mixing System Identification Using Multichannel Matching Pursuit
+('CIRCUITS SYSTEMS AND SIGNAL PROCESSING.', '2021', 'A2 (CIRCUITS, SYSTEMS, AND SIGNAL PROCESSING)')
+
+['HENRIQUE GONZÁLEZ SILVA, PEDRO', 'AMORIM, GLAUCO', 'S SOUZA, UEVERTON', 'MORAIS, IGOR', 'Dos Santos, Joel', 'A GUIMARÃES, VANESSA', 'M RIBEIRO, GLAYDSTON.']
+Designing screen layout in multimedia applications through integer programming and metaheuristic
+('RAIRO-OPERATIONS RESEARCH.', '2021', 'Não identificado (RAIRO-OPERATIONS RESEARCH)')
+
+['JUCÁ, MARCO AURÉLIO', 'C. PEREIRA, ISABELA VICTÓRIA', 'HADDAD, Diego Barreto', 'DOS SANTOS, ALEXANDRE BESSA.']
+Weight classifier using optical time domain reflectometry and a long period grating sensor
+('OPTICAL FIBER TECHNOLOGY.', '2021', 'B1 (OPTICAL FIBER TECHNOLOGY (PRINT))')
+
+['JUNIOR, VALMIR S. NOGUEIRA', 'TCHEOU, MICHEL P.', 'DIAS, MAURÍCIO H. C.', 'Haddad, Diego B..']
+Constrained Least Mean Square Algorithm with Coefficient Reusing
+('CIRCUITS SYSTEMS AND SIGNAL PROCESSING.', '2021', 'A2 (CIRCUITS, SYSTEMS, AND SIGNAL PROCESSING)')
+
+['LORDEIRO, IGOR Q.', 'Haddad, Diego B.', 'CARDOSO, DOUGLAS O..']
+Multi-Armed Bandits for Minesweeper: Profiting from Exploration-Exploitation Synergy
+('IEEE Transactions on Games.', '2021', 'B1 (IEEE TRANSACTIONS ON GAMES)')
+
+['MARQUES, E.', 'AZEVEDO-FERREIRA, M.', 'González, Pedro Henrique', 'GUIMARÃES, VANESSA DE ALMEIDA.']
+MAPPING SUPPLY CHAIN STUDIES FROM THE SUSTAINABLE PERSPECTIVE
+('TECNOLOGIA & CULTURA (CEFET/RJ).', '2021', 'B4')
+
+['MONSORES, J. F.', 'CIDADE, I.', 'ALMEIDA, T. R.', 'QUADROS, L. C. T.', 'QUADROS, J. R. T..']
+AÇÕES DE EXTENSÃO COM USO DO GESTALTISMO E TECNOLOGIA: DESENVOLVIMENTO DE FERRAMENTAS ROBÓTICAS VOLTADAS PARA O PÚBLICO EXTERNO À INSTITUIÇÃO
+('REVISTA CONEXÃO UEPG.', '2021', 'B1')
+
+['PAIXAO, B. S. C.', 'BARONI, L. R.', 'PEDROSO, M. M.', 'SALLES, R. P.', 'ESCOBAR, L.', 'SOUSA, C. A. M.', 'SALDANHA, R. F.', 'SOARES, J. A.', 'COUTINHO, R. C.', 'PORTO, F.', 'OGASAWARA, E..']
+Estimation of COVID-19 Under-Reporting in the Brazilian States Through SARI
+('New Generation Computing.', '2021', 'B3 (NEW GENERATION COMPUTING)')
+
+['PIMENTA, RODRIGO', 'SIQUEIRA, NEWTON', 'PETRAGLIA, MARIANE', 'HADDAD, DIEGO.']
+Transient Analysis of the Bias-Compensated LMS Algorithm
+('Journal of Communication and Information Systems (JCIS),.', '2021', 'A1 (JOURNAL OF COMMUNICATION)')
+
+['SALLES, REBECCA', 'PACITTI, ESTHER', 'BEZERRA, EDUARDO', 'PORTO, FABIO', 'Ogasawara, Eduardo.']
+TSPred: A framework for nonstationary time series prediction
+('NEUROCOMPUTING.', '2021', 'A2')
+
+['SANTOS, R.S.', 'SURESH BABU, R.', 'DEVENDIRAN, M.', 'HADDAD, D.B.', 'BARROS, A.L.F. DE.']
+Facile synthesis of transition metal (M = Cu, Co) oxide grafted graphitic carbon nitride nanosheets for high performance asymmetric supercapacitors
+('MATERIALS LETTERS.', '2021', 'Não identificado (MATERIALS LETTERS)')
+
+['SENDER, GISELA', 'CARVALHO, F. M. D.', 'GUEDES, G. P..']
+The Happy Level: A New Approach to Measure Happiness at Work Using Mixed Methods
+('International Journal of Qualitative Methods.', '2021', 'B1 (INTERNATIONAL JOURNAL OF QUALITATIVE METHODS)')
+
+['SILVA, E. P.', 'AMORIM, G. F.', 'GUEDES, G. P.', 'DOS SANTOS, J. A. F.', 'SILVA, R. M. P..']
+A influência de mídias multissensoriais na aprendizagem de crianças com transtorno de leitura
+('REVISTA PSICOPEDAGOGIA.', '2021', 'B2')
+
+['SILVA, E. P.', 'VIEIRA, N.', 'AMORIM, G. F.', 'SILVA, R. M. P.', 'GUEDES, G. P.', 'GHINEA, G.', 'DOS SANTOS, J. A. F..']
+Using Multisensory Content to Impact the Quality of Experience of Reading Digital Books
+('ACM Transactions on Multimedia Computing Communications and Applications.', '2021', 'A2 (ACM TRANSACTIONS ON MULTIMEDIA COMPUTING COMMUNICAT)')
+
+['SILVA, THIAGO T. P.', 'IGREJA, FILIPE', 'LARA, PEDRO', 'TARRATACA, LUIS', 'KAR, ASUTOSH', 'Haddad, Diego B..']
+On the Skewness of the LMS Adaptive Weights
+('IEEE Transactions on Circuits and Systems II: Express Briefs.', '2021', 'C (CIRCUITS AND SYSTEMS)')
+
+['SIQUEIRA, NEWTON N.', 'FERREIRA, TIAGO P.', 'RESENDE, LEONARDO C.', 'PIMENTA, RODRIGO M. S.', 'Haddad, Diego B.', 'Petraglia, Mariane R..']
+Transient Analysis of the Set-Membership LMS Algorithm
+('IEEE COMMUNICATIONS LETTERS.', '2021', 'A1 (IEEE COMMUNICATIONS LETTERS (PRINT))')
+
+['SOUSA, M. M.', 'González, P.H.', 'Ochi, L.S.', 'MARTINS, S. L..']
+A Hybrid Iterated Local Search Heuristic for the Traveling Salesperson Problem with Hotel Selection
+('COMPUTERS & OPERATIONS RESEARCH.', '2021', 'A1')
+
+['SOUTO, GABRIEL', 'MORAIS, IGOR', 'MAURI, GERALDO REGIS', 'RIBEIRO, GLAYDSTON MATTOS', 'GONZÁLEZ, PEDRO HENRIQUE.']
+A Hybrid Matheuristic for the Two-Stage Capacitated Facility Location Problem
+('EXPERT SYSTEMS WITH APPLICATIONS.', '2021', 'A1')
+
+['SOUZA, E.', 'MONSORES, J.', 'OLIVEIRA, R. M.', 'SCHOCAIR, CARLOS', 'QUADROS, J. R. T..']
+DESENVOLVIMENTO DE INTERFACE DE DISPOSITIVOS MÓVEIS PARA UTILIZAÇÃO COM UMA PLATAFORMA MÚLTIPLA DE DADOS / MOBILE DEVICE INTERFACE DEVELOPMENT FOR USE WITH A MULTIPLE DATA PLATFORM
+('Brazilian Journal of Development.', '2021', 'B3 (BRAZILIAN JOURNAL OF DEVELOPMENT)')
+
+['TARRATACA, LUÍS', 'DIAS, CLAUDIA MAZZA', 'HADDAD, Diego Barreto', 'DEARRUDA, EDILSON FERNANDES.']
+Flattening the curves: on-off lock-down strategies for COVID-19 with an application to Brazil
+('Journal of Mathematics in Industry.', '2021', 'Não identificado (Journal of Mathematics in Industry)')
+
+['TEIXEIRA, C.', 'FRAGOSO, L.', 'MATTOSO, M. L. Q.', 'CARVALHO, D.', 'BEZERRA, E.', 'SOARES, J.', 'AMORIM, G.', 'OGASAWARA, EDUARDO.']
+A horizontal partitioning-based method for frequent pattern mining in transport timetable. Expert Systems
+('Expert Systems (Online).', '2021', 'B1 (EXPERT SYSTEMS (ONLINE))')
+
+['XAVIER, P. P. S.', 'PETRAGLIA, M. R.', 'HADDAD, D. B..']
+A non-uniform NSAF-SF adaptive algorithm
+('ELECTRONICS LETTERS (ONLINE).', '2021', 'Não identificado (ELECTRONICS LETTERS (ONLINE))')
+
+['ALBUQUERQUE, D.', 'TARRATACA, L.', 'BRANDAO, D. N.', 'COUTINHO, R. C..']
+A Genetic Algorithm with Flexible Fitness Function for Feature Selection in Educational Data: Comparative Evaluation
+('Journal of Information and Data Management - JIDM.', '2022', 'B4 (JOURNAL OF INFORMATION AND DATA MANAGEMENT)')
+
+['DE BRITO, JORGE A. G.', 'TOTTE, DIEGO R. M.', 'SILVA, FÁBIO O.', 'JUNIOR, JURAIR R. DE P.', 'HENRIQUES, FELIPE DA ROCHA', 'TARRATACA, LUÍS', 'HADDAD, DIEGO BARRETO', 'DE ASSIS, LAURA S..']
+Memetic algorithm applied to topology control optimization of a wireless sensor network
+('WIRELESS NETWORKS (ONLINE).', '2022', 'Não identificado (WIRELESS NETWORKS (ONLINE))')
+
+['Climaco, G.', 'Simonetti, L.', 'ROSSETI, I.', 'González, P.H..']
+New approaches for the Prize-Collecting Covering Tour problem
+('International Journal of Industrial and Systems Engineering (Print).', '2022', 'B1 (INTERNATIONAL JOURNAL OF INDUSTRIAL AND SYSTEMS ENGINEER)')
+
+['CUNHA, H. O.', 'HENRIQUES, F. R.', 'BARROS, A. L. F..']
+DETECÇÃO E DESCARTE DE ERROS GROSSEIROS OBTIDOS NA ESTIMAÇÃO DE ESTADO EM LINHAS DE TRANSMISSÃO
+('REVISTA DE ENGENHARIA E TECNOLOGIA.', '2022', 'C')
+
+['FRANCO, T.', 'OLIVEIRA, L.', 'HENRIQUES, P. R.', 'ALVES, P.', 'PEREIRA, M. J. V.', 'Brandão, D.', 'LEITAO, P.', 'SILVA, A..']
+Motion Sensors for Knee Angle Recognition in Muscle Rehabilitation Solution
+('SENSORS.', '2022', 'A1')
+
+['GOMES JUNIOR, SERGIO PINTO', 'SOUZA FILHO, JOÃO BAPTISTA DE OLIVEIRA', 'HENRIQUES, FELIPE DA ROCHA', 'TCHEOU, MICHEL POMPEU.']
+Intelligent Detection of Arrhythmia Episodes in Dialysis Patients
+('LEARNING AND NONLINEAR MODELS.', '2022', 'B3')
+
+['GUIMARAES, K. P.', 'Haddad, D. B.', 'HENRIQUES, F. R..']
+Digital Twins-Based Self-Regulation System for Instrumentation Networks in IoT Applications
+('RESEARCH INVENTY: INTERNATIONAL JOURNAL OF ENGINEERING AND SCIENCE.', '2022', 'B3 (RESEARCH INVENTY: INTERNATIONAL JOURNAL OF ENGINEERING AN)')
+
+['MASCARENHAS, D. M.', 'HENRIQUES, F. R..']
+O Uso de Simuladores no Ensino de Redes de Computadores
+('REVISTA GUARÁ.', '2022', 'C')
+
+['MENDES, C. S.', 'SILVEIRA, A. S.', 'NUNES, A. L.', 'QUADROS, J. R. T..']
+Ferramenta lúdica de ensino de disciplinas de exatas para nível médio: exemplo do uso do Cubo de Rubik em sala de aula para aprendizado de programação e matemática
+('Brazilian Journal of Development.', '2022', 'B3 (BRAZILIAN JOURNAL OF DEVELOPMENT)')
+
+['PORTO, FABIO', 'FERRO, M.', 'OGASAWARA, E.', 'MOEDA, T.', 'BARROS, C.', 'CHAVES, A.', 'ZORRILLA, R.', 'PEREIRA, R. S.', 'CASTRO, R.', 'SILVA, J. V.', 'SALLES, REBECCA', 'FONSECA, A.', 'HERMSDORFF, J.', 'MAGALHAES, M.', 'SA, V.', 'SIMOES, A.', 'CARDOSO, C.', 'BEZERRA, E..']
+Machine Learning Approaches to Extreme Weather Events Forecast in Urban Areas: challenges and initial results
+('Supercomputing Frontiers and Innovations.', '2022', 'Não identificado (Supercomputing Frontiers and Innovations)')
+
+['TAVARES, L. G.', 'CARVALHO, L.', 'GOMES, A. T. A.', 'COUTINHO, R. C.', 'SOARES, J. A.', 'OGASAWARA, E..']
+Analyzing flight delay prediction under concept drift
+('EVOLVING SYSTEMS.', '2022', 'Não identificado (EVOLVING SYSTEMS)')
+
+['TEIXEIRA, CLAUDIO', 'FRAGOSO, LUANA', 'MATTOSO, M. L. Q.', 'CARVALHO, DIEGO', 'BEZERRA, EDUARDO', 'SOARES, JORGE', 'AMORIM, GLAUCO', 'OGASAWARA, E..']
+A horizontal partitioning-based method for frequent pattern mining in transport timetable
+('EXPERT SYSTEMS.', '2022', 'Não identificado (EXPERT SYSTEMS)')
+
+['VASCONCELOS, ANDRÉ', 'MONSORES, JOMAR', 'ALMEIDA, TANIA', 'QUADROS, LAURA', 'OGASAWARA, EDUARDO', 'Quadros, João.']
+Applying Gestalt approach as a method for teaching computer science practice in the classroom: A case study in primary schools in Brazil
+('Education and Information Technologies.', '2022', 'A1 (EDUCATION AND INFORMATION TECHNOLOGIES)')
+
+['GUEDES, GUSTAVO', 'FERRARI, LILIAN.']
+Ataques cibernéticos: a metáfora de guerra em ciências da computação
+('Signo.', '2023', 'Não identificado (Signo)')
+
+['SA, F. P. G.', 'OGASAWARA, E.', 'COUTINHO, RAFAELLI', 'BRANDAO, D.', 'TOSO, R. F..']
+Wind turbine fault detection: a semi-supervised learning approach with two different dimensionality reduction techniques
+('International Journal of Innovative Computing and Applications (Online).', '2023', 'B4 (INTERNATIONAL JOURNAL OF INNOVATIVE COMPUTING AND APPLI)')
+
+['ALBUQUERQUE, D.', 'TARRATACA, L.', 'BRANDAO, D. N.', 'COUTINHO, R. C..']
+A Genetic Algorithm with Flexible Fitness Function for Feature Selection in Educational Data: Comparative Evaluation
+('Journal of Information and Data Management - JIDM.', '2022', 'B4 (JOURNAL OF INFORMATION AND DATA MANAGEMENT)')
+
+['DE BRITO, JORGE A. G.', 'TOTTE, DIEGO R. M.', 'SILVA, FÁBIO O.', 'JUNIOR, JURAIR R. DE P.', 'HENRIQUES, FELIPE DA ROCHA', 'TARRATACA, LUÍS', 'HADDAD, DIEGO BARRETO', 'DE ASSIS, LAURA S..']
+Memetic algorithm applied to topology control optimization of a wireless sensor network
+('WIRELESS NETWORKS (ONLINE).', '2022', 'Não identificado (WIRELESS NETWORKS (ONLINE))')
+
+['Climaco, G.', 'Simonetti, L.', 'ROSSETI, I.', 'González, P.H..']
+New approaches for the Prize-Collecting Covering Tour problem
+('International Journal of Industrial and Systems Engineering (Print).', '2022', 'B1 (INTERNATIONAL JOURNAL OF INDUSTRIAL AND SYSTEMS ENGINEER)')
+
+['CUNHA, H. O.', 'HENRIQUES, F. R.', 'BARROS, A. L. F..']
+DETECÇÃO E DESCARTE DE ERROS GROSSEIROS OBTIDOS NA ESTIMAÇÃO DE ESTADO EM LINHAS DE TRANSMISSÃO
+('REVISTA DE ENGENHARIA E TECNOLOGIA.', '2022', 'C')
+
+['FRANCO, T.', 'OLIVEIRA, L.', 'HENRIQUES, P. R.', 'ALVES, P.', 'PEREIRA, M. J. V.', 'Brandão, D.', 'LEITAO, P.', 'SILVA, A..']
+Motion Sensors for Knee Angle Recognition in Muscle Rehabilitation Solution
+('SENSORS.', '2022', 'A1')
+
+['GOMES JUNIOR, SERGIO PINTO', 'SOUZA FILHO, JOÃO BAPTISTA DE OLIVEIRA', 'HENRIQUES, FELIPE DA ROCHA', 'TCHEOU, MICHEL POMPEU.']
+Intelligent Detection of Arrhythmia Episodes in Dialysis Patients
+('LEARNING AND NONLINEAR MODELS.', '2022', 'B3')
+
+['GUIMARAES, K. P.', 'Haddad, D. B.', 'HENRIQUES, F. R..']
+Digital Twins-Based Self-Regulation System for Instrumentation Networks in IoT Applications
+('RESEARCH INVENTY: INTERNATIONAL JOURNAL OF ENGINEERING AND SCIENCE.', '2022', 'B3 (RESEARCH INVENTY: INTERNATIONAL JOURNAL OF ENGINEERING AN)')
+
+['MASCARENHAS, D. M.', 'HENRIQUES, F. R..']
+O Uso de Simuladores no Ensino de Redes de Computadores
+('REVISTA GUARÁ.', '2022', 'C')
+
+['MENDES, C. S.', 'SILVEIRA, A. S.', 'NUNES, A. L.', 'QUADROS, J. R. T..']
+Ferramenta lúdica de ensino de disciplinas de exatas para nível médio: exemplo do uso do Cubo de Rubik em sala de aula para aprendizado de programação e matemática
+('Brazilian Journal of Development.', '2022', 'B3 (BRAZILIAN JOURNAL OF DEVELOPMENT)')
+
+['PORTO, FABIO', 'FERRO, M.', 'OGASAWARA, E.', 'MOEDA, T.', 'BARROS, C.', 'CHAVES, A.', 'ZORRILLA, R.', 'PEREIRA, R. S.', 'CASTRO, R.', 'SILVA, J. V.', 'SALLES, REBECCA', 'FONSECA, A.', 'HERMSDORFF, J.', 'MAGALHAES, M.', 'SA, V.', 'SIMOES, A.', 'CARDOSO, C.', 'BEZERRA, E..']
+Machine Learning Approaches to Extreme Weather Events Forecast in Urban Areas: challenges and initial results
+('Supercomputing Frontiers and Innovations.', '2022', 'Não identificado (Supercomputing Frontiers and Innovations)')
+
+['TAVARES, L. G.', 'CARVALHO, L.', 'GOMES, A. T. A.', 'COUTINHO, R. C.', 'SOARES, J. A.', 'OGASAWARA, E..']
+Analyzing flight delay prediction under concept drift
+('EVOLVING SYSTEMS.', '2022', 'Não identificado (EVOLVING SYSTEMS)')
+
+['TEIXEIRA, CLAUDIO', 'FRAGOSO, LUANA', 'MATTOSO, M. L. Q.', 'CARVALHO, DIEGO', 'BEZERRA, EDUARDO', 'SOARES, JORGE', 'AMORIM, GLAUCO', 'OGASAWARA, E..']
+A horizontal partitioning-based method for frequent pattern mining in transport timetable
+('EXPERT SYSTEMS.', '2022', 'Não identificado (EXPERT SYSTEMS)')
+
+['VASCONCELOS, ANDRÉ', 'MONSORES, JOMAR', 'ALMEIDA, TANIA', 'QUADROS, LAURA', 'OGASAWARA, EDUARDO', 'Quadros, João.']
+Applying Gestalt approach as a method for teaching computer science practice in the classroom: A case study in primary schools in Brazil
+('Education and Information Technologies.', '2022', 'A1 (EDUCATION AND INFORMATION TECHNOLOGIES)')
+
+['ALVES, V. M. A.', 'VELARDE, L. G. C.', 'SANTORO, R. V.', 'BRANDAO, D.N.', 'A.C. FILHO, R.', 'TABOADA, G. F..']
+Educating diabetic patients through an SMS intervention: a randomized controlled trial at a Brazilian public hospital
+('Archives of Endocrinology Metabolism.', '2021', 'B3 (ARCHIVES OF ENDOCRINOLOGY AND METABOLISM)')
+
+['BARONI, L.', 'SALLES, REBECCA', 'SALLES, S.', 'PEDROSO, M. M.', 'LIMA, J.', 'MORAIS, I.', 'CARRARO, L.', 'SALDANHA, R. F.', 'SOUSA, C.', 'CARDOSO, C.', 'PAIXAO, B.', 'CRUZ, S.', 'OGASAWARA, E.', 'BOCCOLINI, P.', 'BOCCOLINI, C..']
+Neonatal mortality rates in Brazilian municipalities: from 1996 to 2017
+('BMC RESEARCH NOTES.', '2021', 'B2')
+
+['Brito, J. A. M.', 'Lima, L.S.', 'González, Pedro Henrique', 'OLIVEIRA, B.', 'MACULAN, NELSON.']
+Heuristic approach applied to the optimum stratification problem
+('RAIRO-OPERATIONS RESEARCH.', '2021', 'Não identificado (RAIRO-OPERATIONS RESEARCH)')
+
+['CAMPOS, R. S.', 'HENRIQUES, F. R..']
+Performance Evaluation of a Microstrip Wearable Antenna considering On-Body Curvature
+('RESEARCH INVENTY: INTERNATIONAL JOURNAL OF ENGINEERING AND SCIENCE.', '2021', 'B3 (RESEARCH INVENTY: INTERNATIONAL JOURNAL OF ENGINEERING AN)')
+
+['CARVALHO, LEONARDO', 'STERNBERG, ALICE', 'MAIA GONÇALVES, LEANDRO', 'BEATRIZ CRUZ, ANA', 'SOARES, JORGE A.', 'BRANDÃO, DIEGO', 'CARVALHO, DIEGO', 'Ogasawara, Eduardo.']
+On the relevance of data science for flight delay research: a systematic review
+('TRANSPORT REVIEWS.', '2021', 'A1')
+
+['CASTRO, R.', 'SOUTO, Y. M.', 'OGASAWARA, E. S.', 'PORTO, F.', 'BEZERRA, EDUARDO.']
+STConvS2S: Spatiotemporal Convolutional Sequence to Sequence Network for Weather Forecasting
+('NEUROCOMPUTING.', '2021', 'A2')
+
+['DOS SANTOS DE ASSIS, BRENO', 'Ogasawara, Eduardo', 'BARBASTEFANO, RAFAEL', 'CARVALHO, DIEGO.']
+Frequent pattern mining augmented by social network parameters for measuring graduation and dropout time factors: A case study on a production engineering course
+('SOCIO-ECONOMIC PLANNING SCIENCES.', '2021', 'A2')
+
+['VIGNOLI, L. E. G.', 'SALLES, REBECCA', 'LIMA, J.', 'GEA, C.', 'BARONI, L.', 'ZIVIANI, A.', 'PIRES, P. F.', 'DELICATO, F. C.', 'COUTINHO, R. C.', 'ASSIS, L. S.', 'OGASAWARA, E..']
+Evaluating Temporal Bias in Time Series Event Detection Methods
+('Journal of Information and Data Management - JIDM.', '2021', 'B4 (JOURNAL OF INFORMATION AND DATA MANAGEMENT)')
+
+['HENRIQUE GONZÁLEZ SILVA, PEDRO', 'AMORIM, GLAUCO', 'S SOUZA, UEVERTON', 'MORAIS, IGOR', 'Dos Santos, Joel', 'A GUIMARÃES, VANESSA', 'M RIBEIRO, GLAYDSTON.']
+Designing screen layout in multimedia applications through integer programming and metaheuristic
+('RAIRO-OPERATIONS RESEARCH.', '2021', 'Não identificado (RAIRO-OPERATIONS RESEARCH)')
+
+['MARQUES, E.', 'AZEVEDO-FERREIRA, M.', 'González, Pedro Henrique', 'GUIMARÃES, VANESSA DE ALMEIDA.']
+MAPPING SUPPLY CHAIN STUDIES FROM THE SUSTAINABLE PERSPECTIVE
+('TECNOLOGIA & CULTURA (CEFET/RJ).', '2021', 'B4')
+
+['MONSORES, J. F.', 'CIDADE, I.', 'ALMEIDA, T. R.', 'QUADROS, L. C. T.', 'QUADROS, J. R. T..']
+AÇÕES DE EXTENSÃO COM USO DO GESTALTISMO E TECNOLOGIA: DESENVOLVIMENTO DE FERRAMENTAS ROBÓTICAS VOLTADAS PARA O PÚBLICO EXTERNO À INSTITUIÇÃO
+('REVISTA CONEXÃO UEPG.', '2021', 'B1')
+
+['PAIXAO, B. S. C.', 'BARONI, L. R.', 'PEDROSO, M. M.', 'SALLES, R. P.', 'ESCOBAR, L.', 'SOUSA, C. A. M.', 'SALDANHA, R. F.', 'SOARES, J. A.', 'COUTINHO, R. C.', 'PORTO, F.', 'OGASAWARA, E..']
+Estimation of COVID-19 Under-Reporting in the Brazilian States Through SARI
+('New Generation Computing.', '2021', 'B3 (NEW GENERATION COMPUTING)')
+
+['SALLES, REBECCA', 'PACITTI, ESTHER', 'BEZERRA, EDUARDO', 'PORTO, FABIO', 'Ogasawara, Eduardo.']
+TSPred: A framework for nonstationary time series prediction
+('NEUROCOMPUTING.', '2021', 'A2')
+
+['SENDER, GISELA', 'CARVALHO, F. M. D.', 'GUEDES, G. P..']
+The Happy Level: A New Approach to Measure Happiness at Work Using Mixed Methods
+('International Journal of Qualitative Methods.', '2021', 'B1 (INTERNATIONAL JOURNAL OF QUALITATIVE METHODS)')
+
+['SILVA, E. P.', 'AMORIM, G. F.', 'GUEDES, G. P.', 'DOS SANTOS, J. A. F.', 'SILVA, R. M. P..']
+A influência de mídias multissensoriais na aprendizagem de crianças com transtorno de leitura
+('REVISTA PSICOPEDAGOGIA.', '2021', 'B2')
+
+['SILVA, ELLEN P.', 'VIEIRA, NATÁLIA', 'AMORIM, GLAUCO', 'MOUSINHO, RENATA', 'GUEDES, GUSTAVO', 'GHINEA, GHEORGHITA', 'dos Santos, Joel A. F..']
+Using Multisensory Content to Impact the Quality of Experience of Reading Digital Books
+('ACM Transactions on Multimedia Computing Communications and Applications.', '2021', 'A2 (ACM TRANSACTIONS ON MULTIMEDIA COMPUTING COMMUNICAT)')
+
+['SOUSA, M. M.', 'González, P.H.', 'Ochi, L.S.', 'MARTINS, S. L..']
+A Hybrid Iterated Local Search Heuristic for the Traveling Salesperson Problem with Hotel Selection
+('COMPUTERS & OPERATIONS RESEARCH.', '2021', 'A1')
+
+['SOUTO, GABRIEL', 'MORAIS, IGOR', 'MAURI, GERALDO REGIS', 'RIBEIRO, GLAYDSTON MATTOS', 'GONZÁLEZ, PEDRO HENRIQUE.']
+A Hybrid Matheuristic for the Two-Stage Capacitated Facility Location Problem
+('EXPERT SYSTEMS WITH APPLICATIONS.', '2021', 'A1')
+
+['SOUZA, E.', 'MONSORES, J.', 'OLIVEIRA, R. M.', 'SCHOCAIR, CARLOS', 'QUADROS, J. R. T..']
+DESENVOLVIMENTO DE INTERFACE DE DISPOSITIVOS MÓVEIS PARA UTILIZAÇÃO COM UMA PLATAFORMA MÚLTIPLA DE DADOS / MOBILE DEVICE INTERFACE DEVELOPMENT FOR USE WITH A MULTIPLE DATA PLATFORM
+('Brazilian Journal of Development.', '2021', 'B3 (BRAZILIAN JOURNAL OF DEVELOPMENT)')
+
+['TEIXEIRA, CLAUDIO', 'FRAGOSO, LUANA', 'MATTOSO, MARTA', 'CARVALHO, DIEGO', 'BEZERRA, EDUARDO', 'SOARES, JORGE', 'AMORIM, GLAUCO', 'OGASAWARA, EDUARDO.']
+A horizontal partitioning-based method for frequent pattern mining in transport timetable. Expert Systems
+('Expert Systems (Online).', '2021', 'B1 (EXPERT SYSTEMS (ONLINE))')
+

@@ -27,5 +27,20 @@ def htmlInfos(url):
                 logging.error(td)
                 logging.error(ex)
 
-    
     return infos
+
+def read_publications(beginYear, endYear):
+    infosp = dict()
+    infosa = dict()
+    infosc = dict()
+
+    for ano in range(beginYear, endYear+1):
+        logging.info(f'Downloading publications ofr year {ano}...')
+        infosp[ano] = htmlInfos(
+            str(f'https://eic.cefet-rj.br/lattes/ppcic-{ano}/PB0-0.html'))
+        infosa[ano] = htmlInfos(
+            str(f'https://eic.cefet-rj.br/lattes/ppcic-{ano}/PB7-0.html'))
+        infosc[ano] = htmlInfos(
+            str(f'https://eic.cefet-rj.br/lattes/ppcic-{ano}/PB4-0.html'))
+
+    return infosp, infosa, infosc

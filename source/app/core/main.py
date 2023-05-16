@@ -1,14 +1,14 @@
 from datetime import datetime
-from .normalizer import normalizer
-from .reader import htmlInfos
-from .scriptsdb import create_tables
-from .transcriber import insertData
-from .analyzer import parsePublication
+from normalizer import normalizer
+from reader import read_publications
+from scriptsdb import create_tables
+from transcriber import insertData
+from analyzer import parsePublication
 import argparse
 import traceback
 import os
 import logging
-from .database import db
+from database import db
 from unidecode import unidecode
 logging.basicConfig(level=logging.DEBUG)
 
@@ -34,20 +34,16 @@ def main(beginYear: str, endYear: str):
     resultsJournals, resultsConferences = [], []
     rJauthorsnorm, rCauthorsnorm, discauthorsJ, discauthorsC = [], [], [], []
 
+    infosp, infosa, infosc = read_publications(int(period[0]), int(period[1])+1)
+
     for ano in range(int(period[0]), int(period[1])+1):
-        infosp = htmlInfos(
-            str(f'https://eic.cefet-rj.br/lattes/ppcic-{ano}/PB0-0.html'))
-        infosa = htmlInfos(
-            str(f'https://eic.cefet-rj.br/lattes/ppcic-{ano}/PB7-0.html'))
-        infosc = htmlInfos(
-            str(f'https://eic.cefet-rj.br/lattes/ppcic-{ano}/PB4-0.html'))
+        logging.info(f'Tratando {len(infosp)} dados de Periodicos - {ano}')
+
         number_of_errors_periodics = 0
         number_of_errors_publications = 0
         number_of_errors_conferences = 0
 
-        logging.info(f'Tratando {len(infosp)} dados de Periodicos - {ano}')
-
-        for i in infosp:
+        for i in infosp[ano]:
             doc = result = dis = None
             try:
                 result=parsePublication(unidecode(i).upper())
@@ -67,7 +63,7 @@ def main(beginYear: str, endYear: str):
                 log_traceback(ex)
 
         logging.info(f'Tratando {len(infosa)} dados de Publicações Aceitas - {ano}')
-        for i in infosa:
+        for i in infosa[ano]:
             try:
                 result=parsePublication(unidecode(i).upper())
                 resultsJournals.append(result)
@@ -87,7 +83,7 @@ def main(beginYear: str, endYear: str):
 
 
         logging.info(f'Tratando {len(infosc)} dados de Conferência - {ano}')
-        for i in infosc:
+        for i in infosc[ano]:
             try:
                 result=parsePublication(unidecode(i).upper())
                 resultsConferences.append(result)
