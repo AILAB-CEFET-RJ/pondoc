@@ -20,7 +20,7 @@ def create_tables():
 
     # inserindo dados na tabela
     # researchers
-    basePath = 'app/core'
+    basePath = 'source/app/core'
     with open(f'{basePath}/PPCICresearchers.json', encoding='utf-8') as arq:
         researchers = json.load(arq)
 
