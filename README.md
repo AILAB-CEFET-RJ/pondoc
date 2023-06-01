@@ -97,28 +97,3 @@ Distributed under the Apache License. See [`LICENSE.txt`](https://github.com/ara
 
 ### Relatório
 Documentação do projeto PONDOC em [`RelatórioEstágio.docx`](https://github.com/araujobtc/pondoc/blob/main/docs/RelatórioEstágio.docx)
-
-```html
-<p align="right"><a href="#PONDOC">Topo ↑</a></p>
-
- <h1>Manual do Usuário</h1>
-
-    <p>Este manual apresenta as informações e o passo a passo que devem seguir para utilizar a aplicação</p>
-
-    <h3>Objetivo da aplicação:</h3>
-    <p>Essa aplicação tem como objetivo procurar e retornar todas as contribuições feitas por docentes para a instituição. Para isso, são realizadas consultas em alguns sites utilizando os nomes/assinaturas dos mesmos.</p>
-
-    <h3>Fluxo da aplicação:</h3>
-
-    <p>Para utilizar o Pondoc o usuário deve acessar a página da aplicação contendo os campos:  </p>
-    <ul> 
-        <li>Ano de inicio</li>
-        <li>Ano de término</li>
-    </ul>
-
-    <p>Esses campos dizem respeito ao período que o usuário deseja buscar as contribuições dos docentes. Vale lembrar que não nessariamente precisa ser buscado um período de tempo entre 2 ou mais anos. Caso o usuário também deseje fazer a busca no decorrer de um ano pode preencher o campo de ano de início e o de término como sendo o mesmo ano.</p>
-
-    <p> Logo abaixo haverá o botão de buscar em azul. Após preencher os anos correspondentes ao período que deseja ser buscado o usuário deve apertar o este botão. Então o botão se tornará um simbolo de carregamento, com isso, a aplicação começará a executar o fluxo (que pode variar de 10 a 60 minutos).</p>
-
-    <p> Ao terminar o fluxo, a página disponibilizará um arquivo .xlsx para download. A aplicação perguntará se o usuário deseja baixar o arquivo através de um alerta na tela.</p>
-```
