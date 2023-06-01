@@ -25,7 +25,7 @@ def periodData(wb, discauthorsJ, titlesj, journals, yearj, colorj):
         wb[f'A{i}']= yearj[i-2]
         wb[f'B{i}']= i-1
         wb[f'C{i}']= titlesj[i-2]
-        wb[f'D{i}']= journals[i-2]
+        wb[f'D{i}']= journals[i-2][0]
         if colorj[i-2] == 1: wb[f'D{i}'].font = Font(color='FF0000')
         if discauthorsJ[i-2] != []: wb[f'E{i}']= discauthorsJ[i-2]
         wb[f'F{i}']= f'=VLOOKUP(D{i},LPeriodicos!A:B,2,FALSE)'
@@ -48,7 +48,7 @@ def lconferData(wb, conferences, qualisurlc):
 
 def lperiodData(wb, journals, issn, qualisj, colorj):
     for i in range(2, len(journals)+2):
-        wb[f'A{i}']= journals[i-2]
+        wb[f'A{i}']= journals[i-2][0]
         if colorj[i-2] == 1: wb[f'A{i}'].font = Font(color='FF0000')
         wb[f'B{i}']= f'=IF(M{i}>1-1/8,"A1",IF(M{i}>1-2/8,"A2",IF(M{i}>1-3/8,"A3",IF(M{i}>1/2,"A4",IF(M{i}>1-5/8,"B1",IF(M{i}>=0.2,"B2",IF(M{i}>=0.1,"B3",IF(M{i}>=0.05,"B4","NA"))))))))'
         wb[f'D{i}']= f'=VLOOKUP(B{i},Tabelas!A:C,3,FALSE)'
