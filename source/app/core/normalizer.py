@@ -1,4 +1,4 @@
-from database import db
+from .database import db
 import pandas as pd
 
 # retorna lista com nome dos docentes e discentes que participaram normalizada. (SILVA, M. P. -> MARIA PEREIRA DA SILVA)

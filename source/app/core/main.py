@@ -1,15 +1,12 @@
-from datetime import datetime
-from normalizer import normalizer
-from reader import read_publications
-from scriptsdb import create_tables
-from transcriber import insertData
-from analyzer import parsePublication
-import argparse
-import traceback
 import os
 import logging
-from database import db
-from unidecode import unidecode
+from datetime import datetime
+from .normalizer import normalizer
+from .transcriber import insertData
+from .scriptsdb import create_tables
+from .reader import read_publications
+from .analyzer import parsePublication
+import traceback
 logging.basicConfig(level=logging.DEBUG)
 
 
@@ -45,8 +42,10 @@ def main(beginYear: str, endYear: str):
 
         for i in infosp[ano]:
             doc = result = dis = None
+            logging.critical("----------")
+            logging.critical(i)
             try:
-                result=parsePublication(unidecode(i).upper())
+                result=parsePublication(i)
                 resultsJournals.append(result)
                 doc, dis=normalizer(result[0])
                 rJauthorsnorm.append(doc)
@@ -59,13 +58,13 @@ def main(beginYear: str, endYear: str):
                     discauthorsJ.remove(dis)
                 if result and result in resultsJournals:
                     resultsJournals.remove(result)
-                logging.error('Error in citation: %s', unidecode(i))
+                logging.error('Error in citation: %s', i)
                 log_traceback(ex)
 
         logging.info(f'Tratando {len(infosa)} dados de Publicações Aceitas - {ano}')
         for i in infosa[ano]:
             try:
-                result=parsePublication(unidecode(i).upper())
+                result=parsePublication(i)
                 resultsJournals.append(result)
                 doc, dis=normalizer(result[0])
                 rJauthorsnorm.append(doc)
@@ -78,14 +77,14 @@ def main(beginYear: str, endYear: str):
                     discauthorsJ.remove(dis)
                 if result and result in resultsJournals:
                     resultsJournals.remove(result)
-                logging.error('Error in citation: %s', unidecode(i))
+                logging.error('Error in citation: %s', i)
                 log_traceback(ex)
 
 
         logging.info(f'Tratando {len(infosc)} dados de Conferência - {ano}')
         for i in infosc[ano]:
             try:
-                result=parsePublication(unidecode(i).upper())
+                result=parsePublication(i)
                 resultsConferences.append(result)
                 doc, dis=normalizer(result[0])
                 rCauthorsnorm.append(doc)
@@ -98,7 +97,7 @@ def main(beginYear: str, endYear: str):
                     discauthorsC.remove(dis)
                 if result and result in resultsJournals:
                     resultsJournals.remove(result)
-                logging.error('Error in citation: %s', unidecode(i))
+                logging.error('Error in citation: %s', i)
                 log_traceback(ex)
         
     logging.debug("Erros em publicações aceitas: %s", str(number_of_errors_publications))

@@ -10,11 +10,11 @@ class Database():
         error = None
         while attempt < 5:
             try:
-                db = psycopg2.connect(host='postgres',
-                                      dbname=os.getenv('POSTGRES_DB'),
-                                      user=os.getenv('POSTGRES_USER'),
-                                      password=os.getenv('POSTGRES_PASSWORD'),
-                                      port='5432')
+                db = psycopg2.connect(host='localhost',
+                                      dbname='postgres',
+                                      user='postgres',
+                                      password='admin',
+                                      port='5433')
                 return db
             except Exception as e:
                 error = e

@@ -1,6 +1,7 @@
 import logging
 import pyparsing
-from reader import read_publications
+from unidecode import unidecode
+from .reader import read_publications
 
 from pyparsing import (Word, 
                        Literal, 
@@ -180,18 +181,21 @@ def infosCitation(result):
     try: return conference_journal, issn, year, qualis
     except: return conference_journal, year, qualis
 
+def formatString(x: str):
+    return x.upper()
+
 def parsePublication(citation, debug = False):
     authors = citation[0]
     authors = authors.split(";")
-    authors = [author.strip() for author in authors]
-    publication_title = citation[1]
-    citation_details = citation[2]
+    authors = [formatString(author.strip()) for author in authors]
+    publication_title = formatString(citation[1])
+    citation_details = formatString(citation[2])
     try:
         citation_details_parsing_result = parse_publication_remainder(citation_details, debug)
     except pyparsing.exceptions.ParseException as e:
         print(f"Parsing error on publication '{citation_details}': {e}.")
         citation_details_parsing_result = None
-        sys.exit(2)
+        # sys.exit(2)
     return (authors, publication_title, infosCitation(citation_details_parsing_result))
 
 if __name__ == "__main__":
