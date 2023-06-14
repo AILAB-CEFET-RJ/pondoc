@@ -68,13 +68,10 @@ def insertData(period, file, rJauthorsnorm, resultsJournals, discauthorsJ, rCaut
     wb['LConferencias'].delete_rows(2, 200)
     wb['LPeriodicos'].delete_rows(2, 200)
 
-    titlesj, journals, issn, yearj, qualisj, colorj, titlesc, conferences, yearc, qualisurlc = refInfos(resultsJournals, resultsConferences) #qualisurlj, qualisc, colorc
-
     conferData(wb['Conferencias'], discauthorsC, titlesc, conferences, yearc)    #colorc
     periodData(wb['Periodicos'], discauthorsJ, titlesj, journals, yearj, colorj)
     lconferData(wb['LConferencias'], conferences, qualisurlc)       #qualisurlc -> qualisc, colorc
     lperiodData(wb['LPeriodicos'], journals, issn, qualisj, colorj)
-    
     if file == 'default.xlsx': 
         file = f'producao{"-".join(period)}.xlsx'
         wb.save(file)

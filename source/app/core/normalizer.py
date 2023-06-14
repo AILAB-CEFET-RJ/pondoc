@@ -8,20 +8,20 @@ def normalizer(l):
     doc, dis = [], []
     for ref in l:
         surnameref = ref[0].strip() + ', '
-        nameref = (surnameref + ' '.join(ref[1:])).upper()
+        nameref = (surnameref + ' '.join(i.strip() for i in ref[1:])).upper().strip()
         docentes = pd.DataFrame(db.consult_db(
             "SELECT referencia FROM researchers"))
-        for ref in docentes[0]:
-            if nameref == ref:
-                sql = f"SELECT nome FROM researchers WHERE referencia = '{ref}'"
+        for doc_ref in docentes[0]:
+            if nameref == doc_ref:
+                sql = f"SELECT nome FROM researchers WHERE referencia = '{doc_ref}'"
                 fullname = db.consult_db(sql)[0][0]
                 doc.append(fullname)
 
         discentes = pd.DataFrame(db.consult_db(
             "SELECT referencia FROM students"))
-        for ref in discentes[0]:
-            if nameref == ref:
-                sql = f"SELECT nome FROM students WHERE referencia = '{ref}'"
+        for dis_ref in discentes[0]:
+            if nameref == dis_ref:
+                sql = f"SELECT nome FROM students WHERE referencia = '{dis_ref}'"
                 fullname = db.consult_db(sql)[0][0]
                 dis.append(fullname)
 
