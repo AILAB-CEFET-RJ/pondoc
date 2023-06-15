@@ -39,15 +39,20 @@ def refInfos(resultsJournals, resultsConferences):
     titlesj, journals, issn, yearj, qualisurlj, titlesc, conferences, yearc, qualisurlc = [], [], [], [], [], [], [], [], []
 
     for i in resultsJournals:
+        i = [*i]
         titlesj.append(i[1])
         journals.append(i[2])
         try:
+            if isinstance(i[2], tuple):
+                temp: tuple = i[2]
+                del i[2]
+                i += [*temp]
             if 'NÃO IDENTIFICADO' in i[5].upper(): qualisurlj.append('NI')
             else: qualisurlj.append(i[5][:2])
             issn.append(i[3])
             yearj.append(i[4])
-        except: 
-            yearj.append(i[3])
+        except Exception as e: 
+            yearj.append(i[3]) #ERRO AQUI
             issn.append('')
             if 'NÃO IDENTIFICADO' in i[4].upper(): qualisurlj.append('NI')
             else: qualisurlj.append(i[4][:2])
@@ -56,6 +61,11 @@ def refInfos(resultsJournals, resultsConferences):
        
     for i in resultsConferences:
         titlesc.append(i[1])
+        i = [*i]
+        if isinstance(i[2], tuple):
+            temp: tuple = i[2]
+            del i[2]
+            i += [*temp]
         conferences.append(i[2])
         yearc.append(i[3])
         if 'NÃO IDENTIFICADO' in i[4].upper(): qualisurlc.append('NI')
