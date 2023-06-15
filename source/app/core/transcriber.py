@@ -1,4 +1,5 @@
 import openpyxl
+import os
 from openpyxl.styles import Font
 import pandas as pd
 from .handler import refInfos, researchersCorrelation
@@ -60,7 +61,7 @@ def lperiodData(wb, journals, issn, qualisj, colorj):
         wb[f'M{i}']= f'=MAX(VLOOKUP(L{i},Tabelas!A:C,2,FALSE),VLOOKUP(J{i},Tabelas!A:C,2,FALSE),VLOOKUP(J{i},Tabelas!A:C,2,FALSE))'
 
 def insertData(period, file, rJauthorsnorm, resultsJournals, discauthorsJ, rCauthorsnorm, resultsConferences, discauthorsC):
-    wb = openpyxl.load_workbook(filename = 'source/app/core/producao.xlsx')
+    wb = openpyxl.load_workbook(filename = os.path.dirname(os.path.abspath(__file__)) + '/producao.xlsx')
     titlesj, journals, issn, yearj, qualisj, colorj, titlesc, conferences, yearc, qualisurlc = refInfos(resultsJournals, resultsConferences) #qualisurlj, qualisc, colorc
 
     wb['Conferencias'].delete_rows(2, 150)

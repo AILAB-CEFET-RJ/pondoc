@@ -4,17 +4,16 @@ import os
 
 class Database():
     # Função para criar conexão no banco
-    #TODO: Carregar credencias via environment
     def conect_db(self):
         attempt = 0
         error = None
         while attempt < 5:
             try:
-                db = psycopg2.connect(host='localhost',
-                                      dbname='postgres',
-                                      user='postgres',
-                                      password='admin',
-                                      port='5433')
+                db = psycopg2.connect(host=os.getenv('POSTGRES_HOST'),
+                                      dbname=os.getenv('POSTGRES_DB'),
+                                      user=os.getenv('POSTGRES_USER'),
+                                      password=os.getenv('POSTGRES_PASSWORD'),
+                                      port=os.getenv('POSTGRES_PORT'))
                 return db
             except Exception as e:
                 error = e

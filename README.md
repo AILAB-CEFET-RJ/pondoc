@@ -97,5 +97,3 @@ Distributed under the Apache License. See [`LICENSE.txt`](https://github.com/ara
 
 ### Relatório
 Documentação do projeto PONDOC em [`RelatórioEstágio.docx`](https://github.com/araujobtc/pondoc/blob/main/docs/RelatórioEstágio.docx)
-
-<p align="right"><a href="#PONDOC">Topo ↑</a></p>

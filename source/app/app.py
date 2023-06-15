@@ -8,7 +8,8 @@ from core.scriptsdb import create_tables
 from flask import Flask, render_template, request, abort, send_file
 from flask_cors import CORS 
 
-# create_tables()
+create_tables()
+
 app = Flask(__name__)
 CORS(app)
 
