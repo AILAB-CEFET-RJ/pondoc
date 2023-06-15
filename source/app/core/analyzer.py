@@ -223,9 +223,9 @@ if __name__ == "__main__":
             print()
 
 
-if __name__ == "__main__":
-    '. SENSORS. v. 19, p. 4067-4080, issn: 1424-8220, 2019. A1.'
-    citation_details = '. REVISTA MILITAR DE CIÊNCIA E TECNOLOGIA, 2018, B5 (C&T. REVISTA MILITAR DE CIÊNCIA E TECNOLOGIA).'
-    # citation_details = ". Em: Simpósio Brasileiro de Pesquisa Operacional, v. único, 2019. B4.'"
-    citation_details_parsing_result = parse_publication_remainder(citation_details, debug=True)
-    print(infosCitation(citation_details_parsing_result))
+# if __name__ == "__main__":
+#     '. SENSORS. v. 19, p. 4067-4080, issn: 1424-8220, 2019. A1.'
+#     citation_details = '. REVISTA MILITAR DE CIÊNCIA E TECNOLOGIA, 2018, B5 (C&T. REVISTA MILITAR DE CIÊNCIA E TECNOLOGIA).'
+#     # citation_details = ". Em: Simpósio Brasileiro de Pesquisa Operacional, v. único, 2019. B4.'"
+#     citation_details_parsing_result = parse_publication_remainder(citation_details, debug=True)
+#     print(infosCitation(citation_details_parsing_result))

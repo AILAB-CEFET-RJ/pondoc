@@ -79,7 +79,7 @@ def lperiodData(wb, journals, issn, qualisj, colorj):
 
 def insertData(period, file, rJauthorsnorm, resultsJournals, discauthorsJ, rCauthorsnorm, resultsConferences, discauthorsC):
 
-    wb = openpyxl.load_workbook(filename='source/app/core/producao.xlsx')
+    wb = openpyxl.load_workbook(filename='app/core/producao.xlsx')
     titlesj, journals, issn, yearj, qualisj, colorj, titlesc, conferences, yearc, qualisurlc = refInfos(
         resultsJournals, resultsConferences)  # qualisurlj, qualisc, colorc
 

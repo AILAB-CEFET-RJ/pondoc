@@ -19,8 +19,8 @@ def log_traceback(ex, ex_traceback=None):
 
 def main(beginYear: str, endYear: str):
     now = datetime.now()
-    filename = os.path.dirname(os.path.abspath(__file__)) + '/../storage/reports/report_' + str(int(now.timestamp())) + '.xlsx'
-    filename = 'source/app/core/producao.xlsx'
+    filename =str(int(now.timestamp())) + '.xlsx'
+    # filename = 'source/app/core/producao.xlsx'
     logging.info(f"Gerando relatório:")
     logging.info(f"De: {beginYear}")
     logging.info(f"Até: {endYear}")

@@ -23,9 +23,9 @@ def createReport():
     if not body.get('beginYear') or not body.get('endYear'):
         abort(400, "Especifique uma data.")
     filename = main(body.get('beginYear'), body.get('endYear'))
-    filename = 'core/producao.xlsx'
-    return send_file(filename, as_attachment=True)
+    # filename = 'core/producao.xlsx'
+    return send_file('/app/' + filename, as_attachment=True)
 
 
 if __name__ == "__main__":
-    app.run(port=5001)
+    app.run()
