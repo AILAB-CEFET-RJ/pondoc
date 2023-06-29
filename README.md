@@ -36,7 +36,7 @@
     A partir de produções bibliográficas dos docentes do Programa de Pós-graduação em Ciência da Computação (PPCIC) do CEFET-RJ, o projeto gera um relatório em
     excel para analise de potuação destes docentes, dando importância a avaliação Qualis das conferências e das revistas de publicação.
 </p>
-<div align=center><img width=550 src='https://user-images.githubusercontent.com/60933617/182955105-f64f7bf6-9f0d-4fc9-a08a-a4ee542190e7.png'/></div>
+<div align=center><img width=550 src='![image](https://github.com/MLRG-CEFET-RJ/pondoc/assets/53834417/d0b29176-f929-4319-a0cd-93aebebb3405)'/></div>
 
 <p align="right"><a href="#PONDOC">Topo ↑</a></p>
 
