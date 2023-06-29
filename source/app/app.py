@@ -1,7 +1,6 @@
 import os
 import logging
 
-
 import openpyxl
 from core.main import main
 from core.scriptsdb import create_tables

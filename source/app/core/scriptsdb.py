@@ -4,7 +4,6 @@ from .database import db
 import csv
 from unidecode import unidecode
 
-
 def create_tables():
     tables = ['researchers', 'students', 'qualis']
 
