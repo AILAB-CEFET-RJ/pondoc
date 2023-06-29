@@ -1,6 +1,5 @@
 <div align=center>
     <img width=200 src='https://user-images.githubusercontent.com/60933617/166180801-b6f8fc4f-37ab-4039-ab40-237cb094f56d.png'/>
-    <h1>PONDOC</h1>
 </div>
 
 <br>
