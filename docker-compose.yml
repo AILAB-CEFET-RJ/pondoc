@@ -19,19 +19,19 @@ services:
             - python-network
             - postgres-network
     
-    cron:
-        build:
-            context: .
-            dockerfile: ./docker/cron/Dockerfile
-        depends_on:
-            - postgres
-        volumes: 
-            - ./source:/app
-        env_file:
-            - .env
-        networks:
-            - cron-network
-            - postgres-network
+    # cron:
+    #     build:
+    #         context: .
+    #         dockerfile: ./docker/cron/Dockerfile
+    #     depends_on:
+    #         - postgres
+    #     volumes: 
+    #         - ./source:/app
+    #     env_file:
+    #         - .env
+    #     networks:
+    #         - cron-network
+    #         - postgres-network
 
     postgres:
         image: postgres:alpine
@@ -45,18 +45,18 @@ services:
             - 5432:5432
         networks:
             - postgres-network
-    pgadmin:
-        image: dpage/pgadmin4
-        environment:
-            PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
-            PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
-        volumes:
-            - ./docker/pgadmin/pgadmin4/servers.json:/pgadmin4/servers.json
-        ports:
-            - 5050:80
-        networks:
-            - pgadmin-network
-            - postgres-network
+    # pgadmin:
+    #     image: dpage/pgadmin4
+    #     environment:
+    #         PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
+    #         PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
+    #     volumes:
+    #         - ./docker/pgadmin/pgadmin4/servers.json:/pgadmin4/servers.json
+    #     ports:
+    #         - 5050:80
+    #     networks:
+    #         - pgadmin-network
+    #         - postgres-network
  
 volumes:
     postgres-volume:

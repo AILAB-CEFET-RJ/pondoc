@@ -19,7 +19,8 @@ def log_traceback(ex, ex_traceback=None):
 
 def main(beginYear: str, endYear: str):
     now = datetime.now()
-    filename = os.path.dirname(os.path.abspath(__file__)) + '/../storage/reports/report_' + str(int(now.timestamp())) + '.xlsx'
+    filename =str(int(now.timestamp())) + '.xlsx'
+    # filename = 'source/app/core/producao.xlsx'
     logging.info(f"Gerando relatório:")
     logging.info(f"De: {beginYear}")
     logging.info(f"Até: {endYear}")
@@ -34,16 +35,14 @@ def main(beginYear: str, endYear: str):
     infosp, infosa, infosc = read_publications(int(period[0]), int(period[1])+1)
 
     for ano in range(int(period[0]), int(period[1])+1):
-        logging.info(f'Tratando {len(infosp)} dados de Periodicos - {ano}')
 
         number_of_errors_periodics = 0
         number_of_errors_publications = 0
         number_of_errors_conferences = 0
 
+        logging.info(f'Tratando {len(infosp[ano])} dados de Periodicos - {ano}')
         for i in infosp[ano]:
             doc = result = dis = None
-            logging.critical("----------")
-            logging.critical(i)
             try:
                 result=parsePublication(i)
                 resultsJournals.append(result)
@@ -61,7 +60,7 @@ def main(beginYear: str, endYear: str):
                 logging.error('Error in citation: %s', i)
                 log_traceback(ex)
 
-        logging.info(f'Tratando {len(infosa)} dados de Publicações Aceitas - {ano}')
+        logging.info(f'Tratando {len(infosa[ano])} dados de Publicações Aceitas - {ano}')
         for i in infosa[ano]:
             try:
                 result=parsePublication(i)
@@ -81,7 +80,7 @@ def main(beginYear: str, endYear: str):
                 log_traceback(ex)
 
 
-        logging.info(f'Tratando {len(infosc)} dados de Conferência - {ano}')
+        logging.info(f'Tratando {len(infosc[ano])} dados de  Conferências - {ano}')
         for i in infosc[ano]:
             try:
                 result=parsePublication(i)

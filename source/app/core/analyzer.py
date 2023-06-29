@@ -169,8 +169,8 @@ def infosCitation(result):
         elif element[0] == 'Remaining':
             remaining = element[1].asList()
             remaining = ' '.join(word for word in remaining)
-            if 'ISSN' in remaining:                
-                l = remaining.find('ISSN: ') + 6
+            if 'issn' in remaining:                
+                l = remaining.find('issn: ') + 6
                 issn = remaining[l:l+9]
         elif element[0] == 'year':
             year = element[1][0]
@@ -182,20 +182,20 @@ def infosCitation(result):
     except: return conference_journal, year, qualis
 
 def formatString(x: str):
-    return x.upper()
+    return x
 
 def parsePublication(citation, debug = False):
     authors = citation[0]
     authors = authors.split(";")
-    authors = [formatString(author.strip()) for author in authors]
+    authors = [formatString(author).split(',') for author in authors]
     publication_title = formatString(citation[1])
     citation_details = formatString(citation[2])
     try:
         citation_details_parsing_result = parse_publication_remainder(citation_details, debug)
     except pyparsing.exceptions.ParseException as e:
-        print(f"Parsing error on publication '{citation_details}': {e}.")
+        logging.critical(f"Parsing error on publication '{citation_details}': {e}.")
         citation_details_parsing_result = None
-        # sys.exit(2)
+        raise e
     return (authors, publication_title, infosCitation(citation_details_parsing_result))
 
 if __name__ == "__main__":
@@ -224,7 +224,8 @@ if __name__ == "__main__":
 
 
 # if __name__ == "__main__":
-#     citation_details = '. REVISTA MILITAR DE CIÊNCIA E TECNOLOGIA. 2018. B5 (C&T. REVISTA MILITAR DE CIÊNCIA E TECNOLOGIA).'
+#     '. SENSORS. v. 19, p. 4067-4080, issn: 1424-8220, 2019. A1.'
+#     citation_details = '. REVISTA MILITAR DE CIÊNCIA E TECNOLOGIA, 2018, B5 (C&T. REVISTA MILITAR DE CIÊNCIA E TECNOLOGIA).'
 #     # citation_details = ". Em: Simpósio Brasileiro de Pesquisa Operacional, v. único, 2019. B4.'"
 #     citation_details_parsing_result = parse_publication_remainder(citation_details, debug=True)
 #     print(infosCitation(citation_details_parsing_result))
