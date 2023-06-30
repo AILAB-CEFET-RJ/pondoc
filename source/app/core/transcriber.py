@@ -65,13 +65,13 @@ def lperiodData(wb, journals, issn, qualisj, colorj):
         wb[f'G{i}'] = issn[i-2]
 
         try:
-            wb[f'J{i}'] = qualisj[i-2]
-        except Exception as ex:
             last = -1
-            qualisValue = journals[i-2][last]
-            if len(qualisValue) != 2:
-                qualisValue =  journals[i-2][last][:2]
+            qualisValue = journals[i-2][last].split(' ')[0]
+            if qualisValue in 'Não':
+                qualisValue = 'NI'
             wb[f'J{i}'] = qualisValue
+        except Exception as ex:
+            wb[f'J{i}'] = qualisj[i - 2]
         wb[f'K{i}'] = f'=IF(H{i}>1-1/8,"A1",IF(H{i}>1-2/8,"A2",IF(H{i}>1-3/8,"A3",IF(H{i}>1/2,"A4",IF(H{i}>1-5/8,"B1",IF(H{i}>1-6/8,"B2",IF(H{i}>1-7/8,"B3",IF(H{i}>0,"B4","NA"))))))))'
         wb[f'L{i}'] = f'=IF(I{i}>1-1/8,"A1",IF(I{i}>1-2/8,"A2",IF(I{i}>1-3/8,"A3",IF(I{i}>1/2,"A4",IF(I{i}>1-5/8,"B1",IF(I{i}>1-6/8,"B2",IF(I{i}>1-7/8,"B3",IF(I{i}>0,"B4","NA"))))))))'
         wb[f'M{i}'] = f'=MAX(VLOOKUP(L{i},Tabelas!A:C,2,FALSE),VLOOKUP(J{i},Tabelas!A:C,2,FALSE),VLOOKUP(J{i},Tabelas!A:C,2,FALSE))'
