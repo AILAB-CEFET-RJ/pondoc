@@ -1,7 +1,4 @@
 import os
-import logging
-
-import openpyxl
 from core.main import main
 from core.scriptsdb import create_tables
 from flask import Flask, render_template, request, abort, send_file
