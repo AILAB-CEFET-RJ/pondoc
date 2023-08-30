@@ -3,6 +3,7 @@ version: '3'
 services:
     python:
         build:
+            context: .
             dockerfile: ./Dockerfile
         working_dir: /app
         command: python3 -m flask --app app/app.py run --host=0.0.0.0 --debug
