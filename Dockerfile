@@ -2,9 +2,11 @@ FROM python:latest
 
 WORKDIR /app
 
-COPY requirements.txt . 
-RUN pip install -r requirements.txt
+COPY source/app . 
+RUN apt update \
+    && apt upgrade -y \
+    && apt install gunicorn3 -y \
+    && pip install --upgrade pip \
+    && pip install -r requirements.txt
 
-RUN rm requirements.txt
-
-# CMD ["python3", "-m", "flask", "--app", "app/app.py", "run", "--host=0.0.0.0"]
+CMD ["gunicorn", "--workers=1", "--bind=0.0.0.0", "--timeout=300", "app:app"]
