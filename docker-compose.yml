@@ -7,4 +7,11 @@ services:
             dockerfile: ./Dockerfile
         env_file:
             - .env
-        network_mode: host
+        ports:
+            - "8000:8000"
+        networks:
+            - gerdisc_default
+
+networks:
+    gerdisc_default:
+        external: true
