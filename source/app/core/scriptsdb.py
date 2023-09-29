@@ -18,14 +18,14 @@ def create_tables():
                     id UUID DEFAULT uuid_generate_v4() NOT NULL,
                     nome                VARCHAR(255), 
                     referencia          VARCHAR(50),
-                    PRIMARY KEY (nome, referencia)
+                    PRIMARY KEY (id)
                     )''')
 
     db.create_drop_db('''CREATE TABLE students( 
                     id UUID DEFAULT uuid_generate_v4() NOT NULL,
                     nome                VARCHAR(255), 
                     referencia          VARCHAR(50),
-                    PRIMARY KEY (nome, referencia)
+                    PRIMARY KEY (id)
                     )''')
 
     db.create_drop_db('''CREATE TABLE qualis(
@@ -33,7 +33,7 @@ def create_tables():
                     issn          VARCHAR(9), 
                     nome          VARCHAR(255), 
                     qualis        VARCHAR(2),
-                    PRIMARY KEY (issn, nome)
+                    PRIMARY KEY (id)
                     )''')
 
     # inserindo dados na tabela
