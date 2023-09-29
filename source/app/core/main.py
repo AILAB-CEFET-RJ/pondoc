@@ -3,7 +3,6 @@ import logging
 from datetime import datetime
 from .normalizer import normalizer
 from .transcriber import insertData
-from .scriptsdb import create_tables
 from .reader import read_publications
 from .analyzer import parsePublication
 import traceback
