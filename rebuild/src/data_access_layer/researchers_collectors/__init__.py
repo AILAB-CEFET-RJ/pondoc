@@ -1,0 +1,2 @@
+from .interface_researchers_collector import IReserchersCollector
+from .scrapper_researchers_collector import ScrapperResearchersCollector
