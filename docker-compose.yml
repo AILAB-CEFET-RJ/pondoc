@@ -3,71 +3,15 @@ version: '3'
 services:
     python:
         build:
+            context: .
             dockerfile: ./Dockerfile
-        working_dir: /app
-        command: python3 -m flask --app app/app.py run --host=0.0.0.0 --debug
-        
-        depends_on:
-            - postgres
-        volumes: 
-            - ./source:/app
         env_file:
-            - .env  
+            - .env
         ports:
-            - ${APP_PORT}:5000
-        networks: 
-            - python-network
-            - postgres-network
-    
-    # cron:
-    #     build:
-    #         context: .
-    #         dockerfile: ./docker/cron/Dockerfile
-    #     depends_on:
-    #         - postgres
-    #     volumes: 
-    #         - ./source:/app
-    #     env_file:
-    #         - .env
-    #     networks:
-    #         - cron-network
-    #         - postgres-network
-
-    postgres:
-        image: postgres:alpine
-        volumes:
-            - postgres-volume:/var/lib/posgresql/data
-        environment:
-            POSTGRES_USER: ${POSTGRES_USER}
-            POSTGRES_PASSWORD: ${POSTGRES_PASSWORD}
-            POSTGRES_DB: ${POSTGRES_DB}
-        ports:
-            - 5432:5432
+            - "8000:8000"
         networks:
-            - postgres-network
-    # pgadmin:
-    #     image: dpage/pgadmin4
-    #     environment:
-    #         PGADMIN_DEFAULT_EMAIL: ${PGADMIN_DEFAULT_EMAIL}
-    #         PGADMIN_DEFAULT_PASSWORD: ${PGADMIN_DEFAULT_PASSWORD}
-    #     volumes:
-    #         - ./docker/pgadmin/pgadmin4/servers.json:/pgadmin4/servers.json
-    #     ports:
-    #         - 5050:80
-    #     networks:
-    #         - pgadmin-network
-    #         - postgres-network
- 
-volumes:
-    postgres-volume:
-        driver: local
+            - gerdisc_default
 
 networks:
-    python-network:
-        driver: bridge
-    cron-network:
-        driver: bridge
-    postgres-network:
-        driver: bridge
-    pgadmin-network:
-        driver: bridge
+    gerdisc_default:
+        external: true

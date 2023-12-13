@@ -7,28 +7,33 @@ from unidecode import unidecode
 def create_tables():
     tables = ['researchers', 'students', 'qualis']
 
+    db.create_drop_db('CREATE EXTENSION IF NOT EXISTS "uuid-ossp"')
+
     # Dropando a tabelas caso elas já existam
     for table in tables:
         db.create_drop_db(f'DROP TABLE IF EXISTS {table}')
 
     # Criando a tabelas
     db.create_drop_db('''CREATE TABLE researchers( 
+                    id UUID DEFAULT uuid_generate_v4() NOT NULL,
                     nome                VARCHAR(255), 
                     referencia          VARCHAR(50),
-                    PRIMARY KEY (nome, referencia)
+                    PRIMARY KEY (id)
                     )''')
 
     db.create_drop_db('''CREATE TABLE students( 
+                    id UUID DEFAULT uuid_generate_v4() NOT NULL,
                     nome                VARCHAR(255), 
                     referencia          VARCHAR(50),
-                    PRIMARY KEY (nome, referencia)
+                    PRIMARY KEY (id)
                     )''')
 
     db.create_drop_db('''CREATE TABLE qualis(
+                    id UUID DEFAULT uuid_generate_v4() NOT NULL,
                     issn          VARCHAR(9), 
                     nome          VARCHAR(255), 
                     qualis        VARCHAR(2),
-                    PRIMARY KEY (issn, nome)
+                    PRIMARY KEY (id)
                     )''')
 
     # inserindo dados na tabela

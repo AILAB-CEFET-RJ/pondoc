@@ -1,7 +1,7 @@
 import logging
 import pyparsing
 from unidecode import unidecode
-from .reader import read_publications
+from reader import read_publications
 
 from pyparsing import (Word, 
                        Literal, 
@@ -199,7 +199,7 @@ def parsePublication(citation, debug = False):
     return (authors, publication_title, infosCitation(citation_details_parsing_result))
 
 if __name__ == "__main__":
-    beginYear = 2017
+    beginYear = 2022
     endYear = 2023
     infosp, infosa, infosc = read_publications(beginYear, endYear)
     for ano in range(beginYear, endYear+1):

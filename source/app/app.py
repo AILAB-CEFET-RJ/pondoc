@@ -1,7 +1,4 @@
 import os
-import logging
-
-import openpyxl
 from core.main import main
 from core.scriptsdb import create_tables
 from flask import Flask, render_template, request, abort, send_file
@@ -21,8 +18,8 @@ def createReport():
     body: dict = request.get_json()
     if not body.get('beginYear') or not body.get('endYear'):
         abort(400, "Especifique uma data.")
-    filename = main(body.get('beginYear'), body.get('endYear'))
-    # filename = 'core/producao.xlsx'
+    # filename = main(body.get('beginYear'), body.get('endYear'))
+    filename = 'core/producao.xlsx'
     return send_file('/app/' + filename, as_attachment=True)
 
 
