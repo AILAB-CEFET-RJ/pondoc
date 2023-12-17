@@ -3,6 +3,8 @@ FROM python:3.10.13-slim-bookworm
 WORKDIR /app
 
 COPY src .
+COPY static_data static_data
+COPY reports reports
 RUN apt update \
     && apt upgrade -y \
     && apt install gunicorn3 -y \

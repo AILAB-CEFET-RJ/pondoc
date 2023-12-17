@@ -85,7 +85,7 @@ def main(_years: List[int]) -> Workbook:
         year_to_records_dict[year] = sub_result
 
     # Excel
-    XL_FILE_NAME = './src/reports/base-copy.xlsx'
+    XL_FILE_NAME = './reports/base-copy.xlsx'
     workbook = load_workbook(XL_FILE_NAME)
 
     # Fill LConferencias
@@ -142,4 +142,4 @@ def main(_years: List[int]) -> Workbook:
     return workbook
 
 if __name__ == '__main__':
-    main([2019,2020,2021,2022]).save('./src/reports/base-copy_1.xlsx')
+    main([2019,2020,2021,2022]).save('./reports/base-copy_1.xlsx')

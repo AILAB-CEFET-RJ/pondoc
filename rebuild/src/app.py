@@ -1,4 +1,5 @@
 from io import BytesIO
+import logging
 from flask import Flask, render_template, request, send_file
 
 from main import main
@@ -30,8 +31,8 @@ def download_report():
         excel_data.seek(0)
 
     except Exception as error:
-        print((begin_year,end_year))
-        print(error)
+        logging.debug((begin_year,end_year))
+        logging.error(error)
         return 'Error, please check your inputs.'
 
     return send_file(
