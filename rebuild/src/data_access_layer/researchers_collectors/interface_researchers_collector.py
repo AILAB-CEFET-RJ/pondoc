@@ -2,7 +2,6 @@ from abc import ABC, abstractmethod
 from typing import Dict, List, Set, Tuple
 
 from entities.researcher_entity import ResearcherEntity
-from report_parameters import ReportParameters
 
 
 class IReserchersCollector(ABC):
