@@ -84,7 +84,7 @@ for year in YEARS:
     year_to_records_dict[year] = sub_result
 
 # Excel
-XL_FILE_NAME = './src/base-copy.xlsx'
+XL_FILE_NAME = './src/reports/base-copy.xlsx'
 workbook = load_workbook(XL_FILE_NAME)
 
 # Fill LConferencias
@@ -137,6 +137,6 @@ for year in YEARS:
 
         i += 1
 
-workbook.save('./src/base-copy_1.xlsx')
+workbook.save('./src/reports/base-copy_1.xlsx')
 
 # pprint(year_to_records_dict[YEARS[0]])
