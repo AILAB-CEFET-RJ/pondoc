@@ -1,7 +1,9 @@
 import re
 from typing import Dict, List, Set, Tuple
 from urllib.request import urlopen
+
 import bs4
+from unidecode import unidecode
 
 from .interface_researchers_collector import IReserchersCollector
 from entities import ResearcherEntity
@@ -36,4 +38,4 @@ class ScrapperResearchersCollector(IReserchersCollector):
     def _normalize_researcher(raw_researcher: bs4.element.Tag) -> ResearcherEntity:
         lattes_id = raw_researcher.attrs.get('href').removeprefix('membro-').removesuffix('.html')
         name = raw_researcher.text.strip().upper()
-        return ResearcherEntity(lattes_id = lattes_id, full_name = name)
+        return ResearcherEntity(lattes_id = lattes_id, full_name = unidecode(name))

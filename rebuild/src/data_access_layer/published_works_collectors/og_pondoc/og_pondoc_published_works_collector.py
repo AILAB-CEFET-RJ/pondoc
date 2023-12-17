@@ -2,6 +2,8 @@ import re
 import uuid
 from typing import Dict, List
 
+from unidecode import unidecode
+
 from entities import PublishedWorkEntity
 from entities.types import Issn
 from ..interface_published_works_collector import IPublishedWorksCollector
@@ -68,7 +70,7 @@ class OgPondocPublishedWorksCollector(IPublishedWorksCollector):
                     lambda x: re.sub(pattern, ".", x.strip().upper()) + " ",
                     reversed(ref),
                 )
-                result.append("".join(cleaned_strs).strip())
+                result.append(unidecode("".join(cleaned_strs).strip()))
             return result
 
         issn = get_issn(other_details)
