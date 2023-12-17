@@ -1,12 +1,10 @@
 import re
-from typing import Any, Dict, List
 
-def create_authorship_regex_dict(entities: List[Any]) -> Dict[re.Pattern, Any]:
-    result = {}
-    for entity in entities:
-        compiled_regex = create_authorship_regex(entity.full_name)
-        entity.authorship_regex = compiled_regex
-        result[compiled_regex] = entity
+def number_to_column_label(number: int) -> str:
+    result = ''
+    while number > 0:
+        number, remainder = divmod(number - 1, 26)
+        result = chr(65 + remainder) + result
     return result
 
 def create_authorship_regex(full_name: str) -> re.Pattern:
