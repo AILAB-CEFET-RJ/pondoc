@@ -3,36 +3,20 @@ from data_access_layer.published_works_collectors import OgPondocPublishedWorksC
 from data_access_layer.researchers_collectors import ScrapperResearchersCollector
 from data_access_layer.scientific_serial_publisher_collectors import CsvScientificSerialPublisherCollector
 from data_access_layer.students_collectors import CsvStudentsCollector
-from report_parameters import ReportParameters
 
 
-settings = {'startDate': '2017-02-15', 'endDate': '2018-02-15', 'score_weights': []}
-ReportParameters.validate_parameters(settings)
-report_parameters = ReportParameters(settings['startDate'], settings['endDate'], settings['score_weights'])
+YEAR = 2022
 
-# # Data extractors
-students, year = CsvStudentsCollector().collect([2022])
-# pprint((students))
+# Data extractors
+students, year_students_dict = CsvStudentsCollector().collect([YEAR])
+pprint((students))
 
-scientific_serial_publishers = CsvScientificSerialPublisherCollector().collect([2022])
-# pprint(scientific_serial_publishers)
+issn_ssp_dict = CsvScientificSerialPublisherCollector().collect([YEAR])
+# pprint(issn_ssp_dict)
 
-researchers, year_researchers_dict = ScrapperResearchersCollector().collect([2022])
-# pprint((researchers, {k: len(v) for k,v in year_researchers_dict.items()}))
+researchers, year_researchers_dict = ScrapperResearchersCollector().collect([YEAR])
+pprint((researchers, {k: len(v) for k,v in year_researchers_dict.items()}))
+# pprint(researchers['5882024148867913'])
 
-published_works_dict = OgPondocPublishedWorksCollector().collect([2022])
-pprint(published_works_dict)
-
-# papers = ScopusPublishedWorksCollector().collect(year_researchers_dict)
-
-# reserchers = get_researchers()
-# published_works = get_published_works(reserchers)
-# paper_qualis_dict = get_qualis(published_works)
-# # save(students, ...)
-
-# # load(students, ...)
-# intermediate_report_representation = calculate_score(settings)
-# # save(intermediate_report_representation)
-
-# # load(intermediate_report_representation)
-# json_report = export_json_report(intermediate_report_representation)
+# year_published_works_dict = OgPondocPublishedWorksCollector().collect([YEAR])
+# pprint(year_published_works_dict)
