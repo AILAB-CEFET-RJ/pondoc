@@ -14,7 +14,8 @@ class CsvScientificSerialPublisherCollector(IScientificSerialPublisherCollector)
         ssp_dict = {}
 
         for year in years:
-            qualis_df = pandas.read_csv(f'./static_data/qualis/qualis-{year}.csv')
+            qualis_df = pandas.read_csv(f'./static_data/qualis/qualis-2022.csv')
+            # qualis_df = pandas.read_csv(f'./static_data/qualis/qualis-{year}.csv')
 
             for scientific_serial_publisher_dict in qualis_df.to_dict('records'):
                 ssp = self._create_ssp_from_dict(scientific_serial_publisher_dict)

@@ -14,7 +14,8 @@ class CsvStudentsCollector(IStudentsCollector):
         year_students_dict = {year: set() for year in years}
 
         for year in years:
-            students_df = pandas.read_csv(f'./static_data/students/students-{year}.csv')
+            students_df = pandas.read_csv(f'./static_data/students/students-2022.csv')
+            # students_df = pandas.read_csv(f'./static_data/students/students-{year}.csv')
             students_df = self._upper_case_student_names(students_df)
 
             for student_dict in students_df.to_dict('records'):
