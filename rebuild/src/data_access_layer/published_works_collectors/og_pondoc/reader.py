@@ -34,7 +34,7 @@ def read_publications(beginYear, endYear):
     infosc = dict()
 
     for ano in range(beginYear, endYear+1):
-        print(f'Downloading publications ofr year {ano}...')
+        print(f'Downloading publications of year {ano}...')
         infosp[ano] = htmlInfos(
             str(f'https://eic.cefet-rj.br/lattes/ppcic-{ano}/PB0-0.html'))
         infosa[ano] = htmlInfos(
