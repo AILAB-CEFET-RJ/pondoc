@@ -58,9 +58,9 @@ def main(_years: List[int]) -> Workbook:
             docentes = []
 
             if issn_ssp_dict.get(str(publication.publisher_issn)):
-                ssp = issn_ssp_dict.get(str(publication.publisher_issn)).name
-                forum = issn_ssp_dict.get(str(publication.publisher_issn)).name
-                qualis = issn_ssp_dict.get(str(publication.publisher_issn)).qualis.value
+                ssp = issn_ssp_dict.get(str(publication.publisher_issn))
+                forum = ssp.name
+                qualis = ssp.qualis.value
 
             for student in students:
                 if any([student.authorship_regex.match(x) for x in authors]):
